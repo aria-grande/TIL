@@ -1,5 +1,6 @@
 # TIL
-Today I Learned
+**Today I Learned!**<br/>
+아리아가 공부한 것을 정리하는 저장소 입니다.🤓
 
 ## Table of contents
 ### Computer Science Basic 🖥
