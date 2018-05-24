@@ -4,9 +4,9 @@
 부하 분산. 대용량 트래픽을 장애 없이 처리하기 위해 여러 대의 서버에 트래픽을 분배하는 기술.<br/>
 Application Server 앞 단에 위치하며, 한 서버가 다운되더라도 정상 동작하는 다른 서버에 트래픽을 전달한다.<br/>
 Hardware LB와 Software LB가 존재한다.<br/>
-웹서버들은 Private IP로 구성되는 경우가 많다. 로드 밸런서는 public network와 private network의 경계에 있는데, public network와 통신할 수 있는 VIP를 가진다.클라이언트가 VIP로 접근하면, 로드 밸런서는 지정한 알고리즘에 따라서 트래픽을 분산한다.
+웹서버들은 Private IP로 구성되는 경우가 많다. 로드 밸런서는 public network와 private network의 경계에 있는데, public network와 통신할 수 있는 VIP를 가진다.클라이언트가 VIP로 접근하면, 로드 밸런서는 지정한 알고리즘에 따라서 트래픽을 분산한다.<br/>
 
-<br/>
+
 ## Load Balancing Algorithms
 ### [Round Robin](https://www.nginx.com/resources/glossary/round-robin-load-balancing/)
 순차적으로 서버에 분산 된다.
