@@ -48,3 +48,4 @@ https://www.thegeekstuff.com/2016/01/load-balancer-intro/
 ## 참고 링크
 - [Introduction of load balancer](https://www.thegeekstuff.com/2016/01/load-balancer-intro/)
 - [Introduction to haproxy and load-balancing concepts](https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts)
+- [대용량 세션을 위한 로드밸런서 개발, Naver D2](https://d2.naver.com/helloworld/605418)
