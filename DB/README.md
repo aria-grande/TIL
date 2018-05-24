@@ -1,4 +1,4 @@
 # Database
 
 ## Table of contents
-- Replication
+- [Shard & Replication](https://github.com/aria-grande/TIL/blob/master/DB/shard_replication.md)
