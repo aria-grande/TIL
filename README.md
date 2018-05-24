@@ -4,9 +4,13 @@
 <br/>
 
 ## Table Of Contents
-### Computer Science Basic 🖥
+### Computer Science Basics 🖥
 - [Database](https://github.com/aria-grande/TIL/tree/master/DB)
 - [Network](https://github.com/aria-grande/TIL/tree/master/Network)
+
+### Languages ℳ
+- Java
+- Ruby(on Rails)
 
 ### HOT 🔥
 - [Machine Learning](https://github.com/aria-grande/TIL/tree/master/ML)
