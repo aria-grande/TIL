@@ -4,7 +4,7 @@
 부하 분산. 대용량 트래픽을 장애 없이 처리하기 위해 여러 대의 서버에 트래픽을 분배하는 기술.
 Application Server 앞 단에 위치하며, 한 서버가 다운되더라도 정상 동작하는 다른 서버에 트래픽을 전달한다.
 Hardware LB와 Software LB가 존재한다.
-
+<br/>
 ## Load Balancing Algorithms
 ### [Round Robin](https://www.nginx.com/resources/glossary/round-robin-load-balancing/)
 순차적으로 서버에 분산 된다.
@@ -16,6 +16,7 @@ Request 시점에 클라이언트와 가장 적게 연결을 맺고 있는 서�
 ### IP Hash
 클라이언트의 IP에 따라 어떤 서버에 트래픽을 전달할지 결정한다.
 
+<br/><br/>
 
 ## 사용되는 기술
 ### NAT(Network Address Translation)
@@ -27,8 +28,11 @@ Private IP를 Virtual IP로 바꿔주는 주소 변조기
 ### Tunneling
 터널. 데이터를 캡슐화해서 연결된 상호 간에만 터널을 만들어 통신을 하며, 캡슐화된 패킷을 구별 및 해제할 수 있다.
 
-
+<br/><br/>
 ## 예
+### [Nginx](http://nginx.org/)
+[Nginx as load balancer](http://nginx.org/en/docs/http/load_balancing.html)
+
 ### [HAProxy](http://www.haproxy.org/)
 안정적이고 고성능인 TCP/HTTP 로드밸런서용 proxy.
 
@@ -37,6 +41,7 @@ Private IP를 Virtual IP로 바꿔주는 주소 변조기
 ##### Reverse proxy vs forward proxy
 https://www.thegeekstuff.com/2016/01/load-balancer-intro/
 
+<hr/>
 
 ## 참고 링크
 - [Introduction of load balancer](https://www.thegeekstuff.com/2016/01/load-balancer-intro/)
