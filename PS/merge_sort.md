@@ -17,7 +17,7 @@ void mergeSort(int[] arr, int left, int right) {
     }
     if (right - left == 1) {
       if(arr[right] < arr[left]) {
-	      swap(arr, left, right);
+      	swap(arr, left, right);
       }
       return;
     }
