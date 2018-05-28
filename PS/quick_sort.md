@@ -52,6 +52,7 @@ void swap(int[] arr, int idx1, int idx2) {
 
 #### avg time complexity
 n의 리스트를 정렬하는데 걸리는 시간을 T(n), c는 임의의 상수라 할 때, 평균 시간 복잡도 계산.
+```
 T(n) >= cn + 2T(n/2)
      >= cn + 2{c(n/2) + 2T(n/4)}
      >= 2cn + 4T(n/4)
@@ -59,7 +60,7 @@ T(n) >= cn + 2T(n/2)
      >= 6cn + 8T(n/8)
      >= ...
      >= cnlogn + nT(1) = O(nlogn)
-
+```
 <hr/>
 ## 참고 링크
 - [퀵 정렬](https://ko.wikipedia.org/wiki/%ED%80%B5_%EC%A0%95%EB%A0%AC)
