@@ -5,8 +5,8 @@ Use quick sort.
 
 # Solution
 
-Quick sort: left, right pointer를 두고 pivot을 정해 pivot보다 작은 값들은 left로, 큰 값들은 right로 분리한다. 
-left partition과 right partition에 대해 위의 로직 반복 적용
+Quick sort: left, right pointer를 두고 pivot을 정해 pivot보다 작은 값들은 left로, 큰 값들은 right로 분리한다. <br/>
+left partition과 right partition에 대해 위의 로직 반복 적용<br/>
 
 ```java
 void sort(int[] arr) {
