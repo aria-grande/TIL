@@ -62,5 +62,6 @@ T(n) >= cn + 2T(n/2)
      >= cnlogn + nT(1) = O(nlogn)
 ```
 <hr/>
+
 ## 참고 링크
 - [퀵 정렬](https://ko.wikipedia.org/wiki/%ED%80%B5_%EC%A0%95%EB%A0%AC)
