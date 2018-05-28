@@ -14,6 +14,6 @@ int getDepth(Node head, int height) {
   return Math.max(getDepth(head.left, height + 1), getDepth(head.right, height + 1));
 }
 ```
-
+n이 전체 노드의 갯수, d는 tree의 depth일 경우,<br/>
 Time complexity: O(n)<br/>
-Space complexity: O(n)
+Space complexity: O(d)
