@@ -1,9 +1,9 @@
 # Problem
 Determine if it is a BST for a given tree.
 
-## Solution
+# Solution
 
-### BST
+## BST
 Binary Search Tree의 약자로 tree 구조이다.<br/>
 각 노드는 두 개 이하의 children 노드를 가지고 있으며, 한 노드의 left subtree는 이 노드의 값보다 작고, right subtree는 노드의 값보다 크다.
 
