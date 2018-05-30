@@ -56,6 +56,7 @@ VIP -> 여러 개의 private IP로 라우팅<br/>
 
 ## 참고 링크
 - [IP address, wikipedia](https://en.wikipedia.org/wiki/IP_address)
+- [IPv6, wikipedia](https://ko.wikipedia.org/wiki/IPv6)
 - [Subnetwork, wikipedia](https://en.wikipedia.org/wiki/Subnetwork)
 - [What is DNS, by AWS](https://aws.amazon.com/ko/route53/what-is-dns/)
 - [IP 종류에 대한 기초지식](http://blog.daum.net/tlos6733/75)
