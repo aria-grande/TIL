@@ -10,6 +10,7 @@ Complete the inOrder function, which has 1 parameter that is a pointer to the ro
 void traverse(Node root) {
   inOrder(root);
 }
+
 void inOrder(Node node) {
   if(node == null) {
     return ;
@@ -32,6 +33,7 @@ void traverse(Node root) {
   if (root == null) {
     return ;
   }
+  
   Stack<Node> stack = new Stack<Node>();
   StringBuilder sb = new StringBuilder();
   
@@ -46,6 +48,7 @@ void traverse(Node root) {
   while(!stack.isEmpty()) {
     Node node = stack.pop();
     sb.append(node.data + " ");
+    
     /* check if node has right subtree */
     if (node.right != null) {
       Node rightSubtree = node.right;
