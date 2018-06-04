@@ -49,7 +49,7 @@ https://md5online.org/
 https://test.aria.com/api/download/attachment/url=../../etc/password
 ```
 - 쿠키값을 통한 인증 및 권한 확인
-- 접근 제어
+- 접근 제어<br/>
   ㄴ 파라미터 변조: 타 사용자의 데이터 조회 가능한지
 
 ### A6: 잘못된 보안 구성
