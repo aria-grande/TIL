@@ -6,7 +6,7 @@ return the collection of integers that is consist of occurrences of each query s
 ```
 
 # Solution
-Brute-force한 방법으로 풀게 되면 각 쿼리에 대해 input이 존재하는지 매번 iterate 및 비교를 해야하므로 시간 복잡도는 O(N^Q)이다.<br/>
+Brute-force한 방법으로 풀게 되면 각 쿼리에 대해 input이 존재하는지 매번 iterate 및 비교를 해야하므로 시간 복잡도는 O(N*Q)이다.<br/>
 하지만, input string을 key로, 빈도수 value로 하여 map에 저장해두면, 결괏값을 만들기 위한 시간 복잡도는 O(N+Q)로 많이 줄어들게 된다.<br/>
 ### Java
 ```java
