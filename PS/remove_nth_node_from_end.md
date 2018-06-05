@@ -50,5 +50,6 @@ Time complexity: O(n)<br/>
 Space complexity: O(1)
 
 <hr/>
+
 ## 유사 문제
 - [remove nth node from end of list(include head)](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
