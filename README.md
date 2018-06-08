@@ -18,5 +18,6 @@
 - [Ruby on Rails](https://github.com/aria-grande/TIL/tree/master/Rails)
 
 ### HOT 🔥
+- [DevOps](https://github.com/aria-grande/TIL/tree/master/DevOps)
 - [Machine Learning](https://github.com/aria-grande/TIL/tree/master/ML)
 - [Problem Solving skills](https://github.com/aria-grande/TIL/tree/master/PS)
