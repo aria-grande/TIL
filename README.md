@@ -12,7 +12,7 @@
 
 ### Languages ℳ
 - Java
-- Ruby(on Rails)
+- [Ruby(on Rails)](https://github.com/aria-grande/TIL/tree/master/Ruby&Rails)
 
 ### HOT 🔥
 - [Machine Learning](https://github.com/aria-grande/TIL/tree/master/ML)
