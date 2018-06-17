@@ -19,5 +19,7 @@ int birthdayCakeCandles(int[] ar) {
     }
     return cnt;
 }
-
 ```
+
+Time complexity: O(n)<br/>
+Space complexity: O(1)
