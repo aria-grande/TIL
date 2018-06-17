@@ -7,6 +7,8 @@
 - [Find all prime numbers until N](https://github.com/aria-grande/TIL/blob/master/PS/find_prime_numbers.md)
 - [Multiply all except me](https://github.com/aria-grande/TIL/blob/master/PS/multiply_all_except_me.md)
 - [Sparse arrays](https://github.com/aria-grande/TIL/blob/master/PS/sparse_arrays.md)
+- [Birthday cake candles](https://github.com/aria-grande/TIL/blob/master/PS/birthday_cake_candles.md)
+- [Grading scores](https://github.com/aria-grande/TIL/blob/master/PS/grading_scores.md)
 
 #### Sort
 - [Merge sort](https://github.com/aria-grande/TIL/blob/master/PS/merge_sort.md)
