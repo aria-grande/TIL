@@ -9,6 +9,7 @@
 - [Sparse arrays](https://github.com/aria-grande/TIL/blob/master/PS/sparse_arrays.md)
 - [Birthday cake candles](https://github.com/aria-grande/TIL/blob/master/PS/birthday_cake_candles.md)
 - [Grading scores](https://github.com/aria-grande/TIL/blob/master/PS/grading_scores.md)
+- [Get Number of ways to climb stair case](https://github.com/aria-grande/TIL/blob/master/PS/recursive_stair_case.md)
 
 #### Sort
 - [Merge sort](https://github.com/aria-grande/TIL/blob/master/PS/merge_sort.md)
