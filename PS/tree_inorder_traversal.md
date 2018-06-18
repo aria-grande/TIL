@@ -66,3 +66,6 @@ void traverse(Node root) {
 n이 노드의 갯수일때,<br/>
 Time complexity: O(n)<br/>
 Space complexity: O(n)
+
+## 참고 링크
+- [Tree traversal](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
