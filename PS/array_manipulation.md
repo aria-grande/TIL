@@ -13,7 +13,7 @@ long getMaxInManipulatedArray(int n, int[][] queries) {
     int endIndex = query[1];
     int value = query[2];
     arr[startIndex] += value;
-    arr[endIndex -= value;
+    arr[endIndex] -= value;
   }
   
   int max = 0;
