@@ -57,3 +57,4 @@ Space complexity: O(n)
 
 ## 참고 링크
 - [합병 정렬](https://ko.wikipedia.org/wiki/%ED%95%A9%EB%B3%91_%EC%A0%95%EB%A0%AC)
+- [Merge sort](https://www.geeksforgeeks.org/merge-sort/)
