@@ -36,5 +36,5 @@ BigInteger exponential(int n) {
 }
 ```
 
-Time complexity: O(log n)
+Time complexity: O(log n)<br/>
 Space complexity: O(1) // 재귀에 의한 stack space도 고려한다면 O(log n)
