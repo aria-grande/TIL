@@ -12,6 +12,7 @@
 - [Get Number of ways to climb stair case](https://github.com/aria-grande/TIL/blob/master/PS/recursive_stair_case.md)
 - [Implement best pow function](https://github.com/aria-grande/TIL/blob/master/PS/pow.md)
 - [Compress string](https://github.com/aria-grande/TIL/blob/master/PS/compress_strings.md)
+- [Decompress string](https://github.com/aria-grande/TIL/blob/master/PS/decompress_string.md)
 
 #### Sort
 - [Merge sort](https://github.com/aria-grande/TIL/blob/master/PS/merge_sort.md)
