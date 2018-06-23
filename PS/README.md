@@ -14,6 +14,7 @@
 - [Compress string](https://github.com/aria-grande/TIL/blob/master/PS/compress_strings.md)
 - [Decompress string](https://github.com/aria-grande/TIL/blob/master/PS/decompress_string.md)
 - [Picking numbers](https://github.com/aria-grande/TIL/blob/master/PS/picking_numbers.md)
+- [Counting Valleys](https://github.com/aria-grande/TIL/blob/master/PS/counting_valleys.md)
 
 #### Sort
 - [Merge sort](https://github.com/aria-grande/TIL/blob/master/PS/merge_sort.md)
