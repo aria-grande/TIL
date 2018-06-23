@@ -11,7 +11,7 @@
 - [Security](https://github.com/aria-grande/TIL/tree/master/Security)
 
 ### Languages ℳ
-- Java
+- [Java](https://github.com/aria-grande/TIL/tree/master/Java)
 - Ruby
 
 ### Frameworks
