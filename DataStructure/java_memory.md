@@ -1,7 +1,4 @@
 # 자바의 메모리 구조 및 구성
-- Data
-- Stack
-- Heap
 
 ![자바 메모리 구조](images/java_memory_structure.png)
 
