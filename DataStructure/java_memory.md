@@ -33,7 +33,7 @@ public void blahblah() {
 // 실제 데이터(1, 2)는 heap 영역에 저장되고,
 이 영역을 가르키는 참조값(reference value)이 stack 영역에 저장된다.
 ```
-![자바 heap과 stack](/mages/java_stack_heap.png)
+![자바 heap과 stack](images/java_stack_heap.png)
 
 
 <hr/>
