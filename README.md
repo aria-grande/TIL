@@ -7,11 +7,17 @@
 ### Computer Science Basics 🖥
 - [Database](https://github.com/aria-grande/TIL/tree/master/DB)
 - [Network](https://github.com/aria-grande/TIL/tree/master/Network)
+- [Operating System](https://github.com/aria-grande/TIL/tree/master/OS)
+- [Security](https://github.com/aria-grande/TIL/tree/master/Security)
 
 ### Languages ℳ
 - Java
-- Ruby(on Rails)
+- Ruby
+
+### Frameworks
+- [Ruby on Rails](https://github.com/aria-grande/TIL/tree/master/Rails)
 
 ### HOT 🔥
+- [DevOps](https://github.com/aria-grande/TIL/tree/master/DevOps)
 - [Machine Learning](https://github.com/aria-grande/TIL/tree/master/ML)
 - [Problem Solving skills](https://github.com/aria-grande/TIL/tree/master/PS)
