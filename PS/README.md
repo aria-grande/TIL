@@ -36,6 +36,7 @@
 - [Breadth First Search](https://github.com/aria-grande/TIL/blob/master/PS/tree_breadth_first_search.md)
 - [Inorder traversal](https://github.com/aria-grande/TIL/blob/master/PS/tree_inorder_traversal.md)
 - [No Prefix Set](https://github.com/aria-grande/TIL/blob/master/PS/no_prefix_set.md)
+- [Connected cell in a grid](https://github.com/aria-grande/TIL/blob/master/PS/connected_grid_cell.md)
 
 #### Linked List
 - [Compare two linked lists](https://github.com/aria-grande/TIL/blob/master/PS/compare_two_linked_lists.md)
@@ -43,8 +44,7 @@
 - [Merge two sorted linked lists](https://github.com/aria-grande/TIL/blob/master/PS/merge_two_sorted_linked_list.md)
 - [Remove Nth node from the end](https://github.com/aria-grande/TIL/blob/master/PS/remove_nth_node_from_end.md)
 
-#### Tree
-- [Connected cell in a grid](https://github.com/aria-grande/TIL/blob/master/PS/connected_grid_cell.md)
+#### Trie
 - [Contacts](https://github.com/aria-grande/TIL/blob/master/PS/contacts.md)
 
 ### Other repositories of Aria
