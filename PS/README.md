@@ -15,6 +15,7 @@
 - [Decompress string](https://github.com/aria-grande/TIL/blob/master/PS/decompress_string.md)
 - [Picking numbers](https://github.com/aria-grande/TIL/blob/master/PS/picking_numbers.md)
 - [Counting Valleys](https://github.com/aria-grande/TIL/blob/master/PS/counting_valleys.md)
+- [Climbing the leaderboard](https://github.com/aria-grande/TIL/blob/master/PS/climbing_the_leaderboard.md)
 
 #### Sort
 - [Merge sort](https://github.com/aria-grande/TIL/blob/master/PS/merge_sort.md)
