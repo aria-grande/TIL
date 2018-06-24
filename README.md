@@ -5,6 +5,7 @@
 
 ## Table Of Contents
 ### Computer Science Basics 🖥
+- [Data structure](https://github.com/aria-grande/TIL/tree/master/DataStructure)
 - [Database](https://github.com/aria-grande/TIL/tree/master/DB)
 - [Network](https://github.com/aria-grande/TIL/tree/master/Network)
 - [Operating System](https://github.com/aria-grande/TIL/tree/master/OS)
