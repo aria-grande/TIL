@@ -38,6 +38,7 @@
 - [Inorder traversal](https://github.com/aria-grande/TIL/blob/master/PS/tree_inorder_traversal.md)
 - [No Prefix Set](https://github.com/aria-grande/TIL/blob/master/PS/no_prefix_set.md)
 - [Connected cell in a grid](https://github.com/aria-grande/TIL/blob/master/PS/connected_grid_cell.md)
+- [Reverse a binary tree](https://github.com/aria-grande/TIL/blob/master/PS/reverse_binary_tree.md)
 
 #### Linked List
 - [Compare two linked lists](https://github.com/aria-grande/TIL/blob/master/PS/compare_two_linked_lists.md)
