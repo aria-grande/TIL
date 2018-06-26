@@ -8,7 +8,7 @@ https://www.hackerrank.com/challenges/extra-long-factorials/editorial
 BigInteger factorial(int n) {
   BigInteger result = BigInteger.ONE;
   do {
-    result = result.multiply(new BigInteger(String.valueOf(n));
+    result = result.multiply(new BigInteger(String.valueOf(n)));
   } while(n -- > 1);
   return result;
 }
