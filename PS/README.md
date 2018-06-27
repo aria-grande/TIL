@@ -20,6 +20,7 @@
 #### Sort
 - [Merge sort](https://github.com/aria-grande/TIL/blob/master/PS/merge_sort.md)
 - [Quick sort](https://github.com/aria-grande/TIL/blob/master/PS/quick_sort.md)
+- [Find maximum count to buy in the budget](https://github.com/aria-grande/TIL/blob/master/PS/mark_and_toys.md)
 
 ### Data structure
 #### Array
