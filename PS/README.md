@@ -22,6 +22,9 @@
 - [Quick sort](https://github.com/aria-grande/TIL/blob/master/PS/quick_sort.md)
 - [Find maximum count to buy in the budget](https://github.com/aria-grande/TIL/blob/master/PS/mark_and_toys.md)
 
+#### Bit manipulation
+- [Flipping bits](https://github.com/aria-grande/TIL/blob/master/PS/flipping_bits.md)
+
 ### Data structure
 #### Array
 - [Rotate Array in Left](https://github.com/aria-grande/TIL/blob/master/PS/array_left_rotation.md)
