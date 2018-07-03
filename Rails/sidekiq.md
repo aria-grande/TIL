@@ -5,10 +5,10 @@ Rails에서 쉽게 사용 할 수 있는 background process!
 <img src="https://brandonhilkert.com/images/sidekiq/rails-web-worker.png" width="400"/>
 
 ### Client
-루비 프로세스 안에서 돌며, application 내에 job을 생성하게 해준다.
+루비 프로세스 안에서 돌며, application 내에서 job을 생성하게 해준다.
 
 ### Redis
-Queue, Data storage. runtime 동안 모든 job의 데이터를 홀딩하고 있다.
+Queue, Data storage. runtime 동안 모든 job의 데이터를 hold.
 
 ### Server
 Redis의 큐에서 job을 pull & process.
