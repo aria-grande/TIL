@@ -61,6 +61,7 @@ sidekiq에서 제공하는 feature
 
 ## Sharding
 _Sidekiq 3.0 이상 제공_
+
 단일 Redis server로 처리할 수 없을 때, ConnectionPool을 여러개 만들어 sharding을 할 수 있다. 아직 한계점이 여러 존재함.
 
 https://github.com/mperham/sidekiq/wiki/Sharding
