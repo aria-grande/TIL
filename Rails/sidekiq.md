@@ -52,7 +52,7 @@ end
 
 ## Job과 Worker
 ### [ActiveJob](https://github.com/mperham/sidekiq/wiki/Active+Job)
-ActiveJob은 Rails에서 제공하는 표준 인터페이스이다. sidekiq에서 제공하는 것이 아님.
+ActiveJob은 Rails에서 제공하는 표준 인터페이스이다. sidekiq에서 제공하는 것이 아님.<br/>
 따라서 ActiveJob의 adapter는 반드시 sidekiq으로 설정해야 한다.
 
 ### [Worker](https://github.com/mperham/sidekiq/wiki/Advanced-Options#workers)
