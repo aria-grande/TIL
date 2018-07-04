@@ -27,6 +27,9 @@
 #### Search
 - [Pairs](https://github.com/aria-grande/TIL/blob/master/PS/pairs.md)
 
+#### Dynamic Programming
+- [Abbreviation](https://github.com/aria-grande/TIL/blob/master/PS/abbreviation.md) :star:
+
 #### Bit manipulation
 - [Flipping bits](https://github.com/aria-grande/TIL/blob/master/PS/flipping_bits.md)
 
