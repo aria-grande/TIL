@@ -54,22 +54,18 @@ boolean abbreviatable(char[] as, int pa, char[] bs, int pb) {
   char ca = as[pa];
   char cb = bs[pb];
   if(Character.isUpperCase(ca)) {
-    // case #2
-    if(ca == cb) {
+    if(ca == cb) {    // case #2
       return abbreviatable(as, pa + 1, bs, pb + 1);
     }
-    // case #4
-    else {
+    else {            // case #4
       return false;
     }
   }
   else {
-    // case #1
-    if(ca == Character.toLowerCase(cb)) {
+    if(ca == Character.toLowerCase(cb)) {  // case #1
       return abbreviatable(as, pa + 1, bs, pb + 1) || abbreviatable(as, pa + 1, bs, pb);
     }
-    // case #3
-    else {
+    else {                                // case #3
       return abbreviatable(as, pa + 1, bs, pb);
     }
   }
