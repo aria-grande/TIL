@@ -25,17 +25,6 @@ b[pb]는 항상 대문자 이므로, a[pa]를 `matched`로 취급할 경우와 �
 | # 4  |  B    |   A   | false(termination) |
 
 ```java
-String abbreviated(String a, String b) {
-  char[] as = a.toCharArray();
-  char[] bs = b.toCharArray();
-  
-  if(as.length < bs.length) {
-    return "NO";
-  }
-  
-  return abbreviatable(as, 0, bs, 0) ? "YES" : "NO";
-}
-
 boolean abbreviatable(char[] as, int pa, char[] bs, int pb) {
   if(pb >= bs.length) {
     // ap 이후의 a에 대문자가 남아있다면 결과값은 false, otherwise true.
@@ -70,6 +59,18 @@ boolean abbreviatable(char[] as, int pa, char[] bs, int pb) {
     }
   }
 }
+
+String abbreviated(String a, String b) {
+  char[] as = a.toCharArray();
+  char[] bs = b.toCharArray();
+  
+  if(as.length < bs.length) {
+    return "NO";
+  }
+  
+  return abbreviatable(as, 0, bs, 0) ? "YES" : "NO";
+}
+
 ```
 
 # Solution 2
@@ -80,21 +81,6 @@ large case에 대해서는 timeout이 발생한다.
 a의 포인터인 pa와 b의 포인터인 pb를 기준으로 해당 포인터부터의 문자들이 매치가 되는지 결과값을 담은 것을 cache[pa][pb]에 담는다.
 
 ```java
-String abbreviated(String a, String b) {
-  char[] as = a.toCharArray();
-  char[] bs = b.toCharArray();
-  
-  if(as.length < bs.length) {
-    return "NO";
-  }
-  
-  int[][] cache = new int[as.length][bs.length];
-  for(int[] row : cache) {
-    Arrays.fill(row, -1);
-  }
-  return abbreviatable(as, 0, bs, 0, cache) == 1 ? "YES" : "NO";
-}
-
 int abbreviatable(char[] as, int pa, char[] bs, int pb, int[][] cache) {
   if(pb >= bs.length) {
     for(int i = pa; i < as.length; ++i) {
@@ -124,6 +110,21 @@ int abbreviatable(char[] as, int pa, char[] bs, int pb, int[][] cache) {
   }
   
   return cache[pa][pb];
+}
+
+String abbreviated(String a, String b) {
+  char[] as = a.toCharArray();
+  char[] bs = b.toCharArray();
+  
+  if(as.length < bs.length) {
+    return "NO";
+  }
+  
+  int[][] cache = new int[as.length][bs.length];
+  for(int[] row : cache) {
+    Arrays.fill(row, -1);
+  }
+  return abbreviatable(as, 0, bs, 0, cache) == 1 ? "YES" : "NO";
 }
 ```
 a의 길이를 N, b의 길이를 M으로 가정할 때,<br/>
