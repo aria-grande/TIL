@@ -38,6 +38,7 @@
 - [Rotate Array in Left](https://github.com/aria-grande/TIL/blob/master/PS/array_left_rotation.md)
 - [Array manipulation](https://github.com/aria-grande/TIL/blob/master/PS/array_manipulation.md)
 - [Shuffle an array](https://github.com/aria-grande/TIL/blob/master/PS/shuffle_an_array.md)
+- [Minimum swaps 2](https://github.com/aria-grande/TIL/blob/master/PS/minimum_swaps2.md)
 
 #### Stack
 - [Balanced brackets](https://github.com/aria-grande/TIL/blob/master/PS/balanced_brackets.md)
