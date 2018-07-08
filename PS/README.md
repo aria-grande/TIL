@@ -5,6 +5,7 @@
 ### Algorithm
 - [Find only one unique number in array](https://github.com/aria-grande/TIL/blob/master/PS/find_only_one_uniq_number.md)
 - [Find all prime numbers until N](https://github.com/aria-grande/TIL/blob/master/PS/find_prime_numbers.md)
+- [Determine N is prime number or not in best solution](https://github.com/aria-grande/TIL/blob/master/PS/determine_n_is_prime_number.md)
 - [Multiply all except me](https://github.com/aria-grande/TIL/blob/master/PS/multiply_all_except_me.md)
 - [Sparse arrays](https://github.com/aria-grande/TIL/blob/master/PS/sparse_arrays.md)
 - [Birthday cake candles](https://github.com/aria-grande/TIL/blob/master/PS/birthday_cake_candles.md)
