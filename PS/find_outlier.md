@@ -33,3 +33,6 @@ int getOutlier(int[] arr) {
   return 0;  
 }
 ```
+arr의 length를 N이라 할 때,<br/>
+Time complexity: O(N)<br/>
+Space complexity: O(1)
