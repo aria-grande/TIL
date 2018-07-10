@@ -41,6 +41,7 @@
 - [Shuffle an array](https://github.com/aria-grande/TIL/blob/master/PS/shuffle_an_array.md)
 - [Minimum swaps 2](https://github.com/aria-grande/TIL/blob/master/PS/minimum_swaps2.md)
 - [Is there a cycle in array?](https://github.com/aria-grande/TIL/blob/master/PS/find_cycle_in_array.md)
+- [Can array be return to the first element?](https://github.com/aria-grande/TIL/blob/master/PS/array_can_be_return_to_the_first.md)
 - [Find outlier in array](https://github.com/aria-grande/TIL/blob/master/PS/find_outlier.md)
 
 #### Stack
