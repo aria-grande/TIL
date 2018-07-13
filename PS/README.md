@@ -43,6 +43,7 @@
 - [Is there a cycle in array?](https://github.com/aria-grande/TIL/blob/master/PS/find_cycle_in_array.md)
 - [Can array be return to the first element?](https://github.com/aria-grande/TIL/blob/master/PS/array_can_be_return_to_the_first.md)
 - [Find outlier in array](https://github.com/aria-grande/TIL/blob/master/PS/find_outlier.md)
+- [Divisible sum pairs](https://github.com/aria-grande/TIL/blob/master/PS/divisible_sum_pairs.md)
 
 #### Stack
 - [Balanced brackets](https://github.com/aria-grande/TIL/blob/master/PS/balanced_brackets.md)
