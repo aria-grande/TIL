@@ -19,6 +19,7 @@
 - [Climbing the leaderboard](https://github.com/aria-grande/TIL/blob/master/PS/climbing_the_leaderboard.md)
 - [Sherlock and pairs](https://github.com/aria-grande/TIL/blob/master/PS/sherlock_and_pairs.md)
 - [Print matrix spirally](https://github.com/aria-grande/TIL/blob/master/PS/print_matrix_spirally.md)
+- [Drawing books](https://github.com/aria-grande/TIL/blob/master/PS/drawing_book.md)
 
 #### Sort
 - [Merge sort](https://github.com/aria-grande/TIL/blob/master/PS/merge_sort.md)
