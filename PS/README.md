@@ -48,9 +48,10 @@
 - [Divisible sum pairs](https://github.com/aria-grande/TIL/blob/master/PS/divisible_sum_pairs.md)
 - [Circular Array Rotation](https://github.com/aria-grande/TIL/blob/master/PS/circular_array_rotation.md)
 
-#### Stack
+#### Stack & Queue
 - [Balanced brackets](https://github.com/aria-grande/TIL/blob/master/PS/balanced_brackets.md)
 - [Maximum of Equal Heights of Stacks](https://github.com/aria-grande/TIL/blob/master/PS/equal_stacks.md)
+- [Largest Rectangle](https://github.com/aria-grande/TIL/blob/master/PS/largest_rectangle.md)
 
 #### Tree
 - [Is this a Binary Search Tree?](https://github.com/aria-grande/TIL/blob/master/PS/check_binary_search_tree.md)
