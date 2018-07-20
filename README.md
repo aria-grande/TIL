@@ -22,3 +22,6 @@
 - [DevOps](https://github.com/aria-grande/TIL/tree/master/DevOps)
 - [Machine Learning](https://github.com/aria-grande/TIL/tree/master/ML)
 - [Problem Solving skills](https://github.com/aria-grande/TIL/tree/master/PS)
+
+### [Seminars by aria](https://github.com/aria-grande/TIL/tree/master/Seminars)
+- [2018-07-19 how to solvee PS](https://github.com/aria-grande/TIL/blob/master/Seminars/2018_07_19_how_to_solve_PS.key)
