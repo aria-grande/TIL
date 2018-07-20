@@ -5,6 +5,7 @@
 ### Algorithm
 - [Find only one unique number in array](https://github.com/aria-grande/TIL/blob/master/PS/find_only_one_uniq_number.md)
 - [Find all prime numbers until N](https://github.com/aria-grande/TIL/blob/master/PS/find_prime_numbers.md)
+- [Determine N is prime number or not in best solution](https://github.com/aria-grande/TIL/blob/master/PS/determine_n_is_prime_number.md)
 - [Multiply all except me](https://github.com/aria-grande/TIL/blob/master/PS/multiply_all_except_me.md)
 - [Sparse arrays](https://github.com/aria-grande/TIL/blob/master/PS/sparse_arrays.md)
 - [Birthday cake candles](https://github.com/aria-grande/TIL/blob/master/PS/birthday_cake_candles.md)
@@ -18,6 +19,8 @@
 - [Climbing the leaderboard](https://github.com/aria-grande/TIL/blob/master/PS/climbing_the_leaderboard.md)
 - [Sherlock and pairs](https://github.com/aria-grande/TIL/blob/master/PS/sherlock_and_pairs.md)
 - [Print matrix spirally](https://github.com/aria-grande/TIL/blob/master/PS/print_matrix_spirally.md)
+- [Drawing books](https://github.com/aria-grande/TIL/blob/master/PS/drawing_book.md)
+- [Kangaroo](https://github.com/aria-grande/TIL/blob/master/PS/kangaroo.md)
 
 #### Sort
 - [Merge sort](https://github.com/aria-grande/TIL/blob/master/PS/merge_sort.md)
@@ -39,10 +42,16 @@
 - [Array manipulation](https://github.com/aria-grande/TIL/blob/master/PS/array_manipulation.md)
 - [Shuffle an array](https://github.com/aria-grande/TIL/blob/master/PS/shuffle_an_array.md)
 - [Minimum swaps 2](https://github.com/aria-grande/TIL/blob/master/PS/minimum_swaps2.md)
+- [Is there a cycle in array?](https://github.com/aria-grande/TIL/blob/master/PS/find_cycle_in_array.md)
+- [Can array be return to the first element?](https://github.com/aria-grande/TIL/blob/master/PS/array_can_be_return_to_the_first.md)
+- [Find outlier in array](https://github.com/aria-grande/TIL/blob/master/PS/find_outlier.md)
+- [Divisible sum pairs](https://github.com/aria-grande/TIL/blob/master/PS/divisible_sum_pairs.md)
+- [Circular Array Rotation](https://github.com/aria-grande/TIL/blob/master/PS/circular_array_rotation.md)
 
-#### Stack
+#### Stack & Queue
 - [Balanced brackets](https://github.com/aria-grande/TIL/blob/master/PS/balanced_brackets.md)
 - [Maximum of Equal Heights of Stacks](https://github.com/aria-grande/TIL/blob/master/PS/equal_stacks.md)
+- [Largest Rectangle](https://github.com/aria-grande/TIL/blob/master/PS/largest_rectangle.md)
 
 #### Tree
 - [Is this a Binary Search Tree?](https://github.com/aria-grande/TIL/blob/master/PS/check_binary_search_tree.md)
@@ -62,6 +71,9 @@
 #### Trie
 - [Contacts](https://github.com/aria-grande/TIL/blob/master/PS/contacts.md)
 
+### Facebook hackercup
+#### Qualification Round
+- [Interception](https://github.com/aria-grande/TIL/blob/master/PS/facebook_hackercup_interception.md)
 ### Other repositories of Aria
 - [Cracking the coding interview](https://github.com/aria-grande/cracking-the-coding-interview)
 - [Hackerrank, gists](https://gist.github.com/aria-grande)

@@ -130,3 +130,50 @@ String abbreviated(String a, String b) {
 a의 길이를 N, b의 길이를 M으로 가정할 때,<br/>
 Time complexity: O(N * M)<br/>
 Space complexity: O(N * M)
+
+
+# Solution 3(BEST)
+재귀 없이 2차원 배열만으로 해결하기!!
+
+> Case 1
+<img src="images/abbreviation_case1.png" width="300px"/>
+
+> Case 2
+<img src="images/abbreviation_case2.png" width="300px"/>
+
+1. matched 값을 축적하고 있는 2d array를 이용하며, 배열의 길이는 `[b.length + 1][a.length + 1]`이다. 
+  배열은 `row = 0 ~ a.length + 1, col = 0 ~ b.length + 1`까지 iterate 해야 한다. case 2 같은 경우 때문이다.
+2. a의 current character(`ac`)가 소문자라면, b의 current character(`bc`)를 찾지 못했다고 가정하고 다음 a character로 찾기 위해 `[row][col+1]`로 현재 값을 전달한다.
+3. `ac`가 대문자이고 `bc`와 같다면, b의 next character를 찾기 위해 현재 값(`[row][col]`)을 `[row + 1][col + 1]`로 전달한다. 
+4. `ac`가 소문자이고 대문자화 했을 경우 `bc`와 같다면, 이 때에도 3과 같이 적용한다.
+5. 최종 결괏값은 `matchd[b.length][a.length]`에 있을 것이며 2~4의 값을 전달하기 위해서는 `matched[0][0] = true` 여야 한다.
+
+```java
+boolean abbreviated(String a, String b) {
+  char[] as = a.toCharArray();
+  char[] bs = b.toCharArray();
+  
+  final int ALEN = as.length;
+  final int BLEN = bs.length;
+  if (ALEN < BLEN) {
+    return false;
+  }
+  
+  boolean[][] matched = new boolean[BLEN + 1][ALEN + 1];
+  matched[0][0] = true;
+  for(int bi = 0; bi <= BLEN; ++bi) {
+    for(int ai = 0; ai <= ALEN; ++ai) {
+      if(ai < ALEN && Character.isLowerCase(as[ai]) {
+        matched[bi][ai + 1] |= matched[bi][ai];
+      }
+      if(ai < ALEN && bi < BLEN && Character.toUpperCase(as[ai]) == bs[bi]) {
+        matched[bi + 1][ai + 1] |= matched[bi][ai];
+      }
+    }
+  }
+  return matched[BLEN][ALEN];
+}
+```
+a의 길이를 N, b의 길이를 M으로 가정할 때,<br/>
+Time complexity: O(N * M)<br/>
+Space complexity: O(N * M)
