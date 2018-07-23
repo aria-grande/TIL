@@ -74,6 +74,7 @@
 
 ### Facebook hackercup
 #### Qualification Round
+- [Tourist](https://github.com/aria-grande/TIL/blob/master/PS/facebook_hackercup_tourist.md)
 - [Interception](https://github.com/aria-grande/TIL/blob/master/PS/facebook_hackercup_interception.md)
 #### Round 1
 - [Let it flow](https://github.com/aria-grande/TIL/blob/master/PS/facebook_hackercup_let_it_flow.md)
