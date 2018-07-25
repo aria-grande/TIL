@@ -68,6 +68,7 @@
 - [Find merged node of two linked lists](https://github.com/aria-grande/TIL/blob/master/PS/find_merge_node_of_two_linked_lists.md)
 - [Merge two sorted linked lists](https://github.com/aria-grande/TIL/blob/master/PS/merge_two_sorted_linked_list.md)
 - [Remove Nth node from the end](https://github.com/aria-grande/TIL/blob/master/PS/remove_nth_node_from_end.md)
+- [Find a cycle](https://github.com/aria-grande/TIL/blob/master/PS/linked_list_cycle_detection.md)
 
 #### Trie
 - [Contacts](https://github.com/aria-grande/TIL/blob/master/PS/contacts.md)
