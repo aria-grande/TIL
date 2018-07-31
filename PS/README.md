@@ -47,6 +47,7 @@
 - [Find outlier in array](https://github.com/aria-grande/TIL/blob/master/PS/find_outlier.md)
 - [Divisible sum pairs](https://github.com/aria-grande/TIL/blob/master/PS/divisible_sum_pairs.md)
 - [Circular Array Rotation](https://github.com/aria-grande/TIL/blob/master/PS/circular_array_rotation.md)
+- [Dynamic Array](https://github.com/aria-grande/TIL/blob/master/PS/dynamic_array.md)
 
 #### Stack & Queue
 - [Balanced brackets](https://github.com/aria-grande/TIL/blob/master/PS/balanced_brackets.md)
@@ -67,13 +68,17 @@
 - [Find merged node of two linked lists](https://github.com/aria-grande/TIL/blob/master/PS/find_merge_node_of_two_linked_lists.md)
 - [Merge two sorted linked lists](https://github.com/aria-grande/TIL/blob/master/PS/merge_two_sorted_linked_list.md)
 - [Remove Nth node from the end](https://github.com/aria-grande/TIL/blob/master/PS/remove_nth_node_from_end.md)
+- [Find a cycle](https://github.com/aria-grande/TIL/blob/master/PS/linked_list_cycle_detection.md)
 
 #### Trie
 - [Contacts](https://github.com/aria-grande/TIL/blob/master/PS/contacts.md)
 
 ### Facebook hackercup
 #### Qualification Round
+- [Tourist](https://github.com/aria-grande/TIL/blob/master/PS/facebook_hackercup_tourist.md)
 - [Interception](https://github.com/aria-grande/TIL/blob/master/PS/facebook_hackercup_interception.md)
+#### Round 1
+- [Let it flow](https://github.com/aria-grande/TIL/blob/master/PS/facebook_hackercup_let_it_flow.md)
 ### Other repositories of Aria
 - [Cracking the coding interview](https://github.com/aria-grande/cracking-the-coding-interview)
 - [Hackerrank, gists](https://gist.github.com/aria-grande)
