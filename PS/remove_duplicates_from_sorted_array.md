@@ -2,50 +2,44 @@
 https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727
 
 # Solution
+`ci`: current index. nums를 iterate하는 index pointer다.
+
+`pi`: prev index. return 값을 의미하며, `nums[0]~nums[prev - 1]`까지는 sorted array without duplication이 된다.
+
+pi가 오른쪽으로 움직이는(`pi++`) 경우
+- 맨 처음일 때, sorted이므로 맨 처음은 무조건 유효한 값이라고 판단
+- prev_prev < prev 일 때, sorted이므로 유효한 값이라고 판단
+- swapping 되거나(swapping은 prev_prev도 current 보다 작고, prev도 current보다 작을 경우)
+
 
 ```java
 public int removeDuplicates(int[] nums) {
-    if(nums.length < 2) {
-        return nums.length;
-    }
-    boolean duplicationFound = false;
-    for(int i = 0; i < nums.length - 1; ++i) {
-        if(nums[i] == nums[i + 1]) {
-            duplicationFound = true;
-        }
-    }
-    if(!duplicationFound) {
-        return nums.length;
-    }
-
-
-    int li = 0;
-    int pi = 0;
-    for(int ci = 1; ci < nums.length; ++ci) {
-        int prev = nums[pi];
-        int cur = nums[ci];
-        int last = nums[li];
-        // System.out.println("prev=" + prev +"("+pi+"),cur = " + cur+ "("+ci+"), last = " + last+"("+li+")");
-        if(prev != cur && pi != ci && pi != li && cur > last) {
-            int tmp = nums[pi];
-            nums[pi] = nums[ci];
-            nums[ci] = tmp;
-            pi++;
-            li++;
-        }
-        else if(prev > last) {
-            pi++;
-            li++;
-        }
-        else if(pi == li || prev == last) {
-            if(pi == li && prev == last && prev != cur) {
-                li++;
+        boolean duplicationFound = false;
+        for(int i = 0; i < nums.length - 1; ++i) {
+            if(nums[i] == nums[i + 1]) {
+                duplicationFound = true;
+                break;
             }
-            pi++;
         }
-    }
-
-    return li + 1;
+        if(!duplicationFound) {
+            return nums.length;
+        }
+        
+        int pi = 0;
+        for(int ci = 1; ci < nums.length; ++ci) {
+            int prev_prev = nusm[pi - 1];
+            int prev = nums[pi];
+            int cur = nums[ci];
+            if(pi == 0 || prev_prev < prev) {
+                pi++;
+            }
+            else if(prev < cur && prev_prev < cur) {
+                nums[pi] = cur;
+                nums[ci] = prev;
+                pi++;
+            }
+        }
+        return pi;
 }
 ```
 
