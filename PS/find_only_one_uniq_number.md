@@ -29,4 +29,23 @@ int findOnlyOneUniqNum(int[] arr) {
 ```
 
 Time Complexity: O(n)
+
 Space Complexity: O(n)
+
+# Better Solution
+XOR 연산을 사용하면 된다.
+같은 숫자들끼리는(i^i) = 0이 될테니까. Only one unique 한 숫자만 XOR 결괏값에 남아있을 것이다.
+
+```java
+public int singleNumber(int[] nums) {
+    int num = 0;
+    for(int n : nums) {
+        num ^= n;
+    }
+    return num;
+}
+```
+
+Time complexity: O(n)
+
+Space complexity: O(1)
