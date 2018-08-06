@@ -39,6 +39,7 @@
 ### Data structure
 #### Array
 - [Contains Duplicate](https://github.com/aria-grande/TIL/blob/master/PS/array_contains_duplicate.md)
+- [Plus one](https://github.com/aria-grande/TIL/blob/master/PS/plus_one_in_array.md)
 - [Rotate Array in Left](https://github.com/aria-grande/TIL/blob/master/PS/array_left_rotation.md)
 - [Array manipulation](https://github.com/aria-grande/TIL/blob/master/PS/array_manipulation.md)
 - [Shuffle an array](https://github.com/aria-grande/TIL/blob/master/PS/shuffle_an_array.md)
