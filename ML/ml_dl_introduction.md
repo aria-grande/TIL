@@ -6,6 +6,47 @@
 앞으로의 코딩: 조건을 학솝 모델의 여러 가중치로 변환하는 일.
 ```
 
+## Supervised Learning
+파라미터(x)와 정답지(y)가 주어지고, 이를 통해 학습하게 하는 방법.
+![supervised learning](images/supervised_learning.png)
+
+## Unsupervised Learning
+https://en.wikipedia.org/wiki/Unsupervised_learning
+
+## [Linear Regression](https://ko.wikipedia.org/wiki/%EC%84%A0%ED%98%95_%ED%9A%8C%EA%B7%80)
+종속 변수 y에 대해 한 개 이상의 독립 변수(x)가  선형 상관 관계를 모델링하는 회귀분석 기법.
+
+연속형 변수, 목록이 되기도 하며, 가중치(w)를 찾는 것이 목적이고 이 것이 곧 모델이다.
+
+![linear_regression](images/linear_regression.png)
+
+## Example
+[타이타닉 생존자 예측하기](https://www.kaggle.com/c/titanic/data)
+
+<hr/>
+
+# Neural Network
+XOR problem을 생각해보자.
+
+![xor problem](images/xor_problem.png)
+
+Logistic은 linear 모형으로, 평면을 단순하게 나누는 것이라고 생각할 수 있다. 
+
+![xor_linear](images/xor_linear.png)
+
+Neural은 hidden layer를 여러 개 사용하여 모델을 생성하는 것이다.
+
+![xor_neural](images/xor_neural.png)
+
+각 노드에 대해 activation function을 추가하는 것이 중요하다. 
+
+activation function을 추가해야 비선형 모델이 되게 되며, activation function을 추가하지 않는다면 계속 linear하게 될 것이다.
+
+![activation function flow](https://www.researchgate.net/profile/Gregory_OHare/publication/224155275/figure/fig4/AS:340655919386626@1458230108928/Single-neuron-showing-input-weigths-weighted-sum-and-activation-function.png)
+
+![activation functions](images/activation_functions.png)
+
+
 # [ANN(Artifical Nueral Network)](https://ko.wikipedia.org/wiki/%EC%9D%B8%EA%B3%B5%EC%8B%A0%EA%B2%BD%EB%A7%9D)
 생물학의 신경망(뉴런)에서 영감을 얻은 통계학적 학습 알고리즘으로, 사람의 뇌구조를 수치화 한 모델이다.
 
@@ -60,11 +101,14 @@ Error function을 정의 한 후, error가 제일 작은 weights(global minimum)
 한 개의 weight에 대해 global minimum 값을 구할 때는 괜찮지만, weight가 한 두 개가 아니라면 구하기 어렵다.
 
 ### 2. [Chain Rule](https://ratsgo.github.io/deep%20learning/2017/05/14/backprop/)
-- forward, backward propagation 두 가지의 방법으로 학습시킨다. 
-- forward는 input -> output을 도출해내는 일반적인 흐름이다.
-- backward의 경우, output에서 얻어진 weight를 미분해서 다시 layer 내의 가중치 값을 업데이트 시켜준다.
+forward, backward propagation 두 가지의 방법으로 학습시킨다. 
+ 
+#### Forward propagation
+- 주어진 weights로 input data로 output을 계산해 내는 input -> output의 일반적인 흐름이다.
+- loss = label - output
 
-#### [backward propagation](https://en.wikipedia.org/wiki/Backpropagation)이 왜 필요할까?
+#### [Backward propagation](https://en.wikipedia.org/wiki/Backpropagation)
+- backward의 경우, output에서 얻어진 weight를 미분해서 다시 layer 내의 가중치 값을 업데이트 시켜주는 방법으로 loss를 최소화 하기 위한 방법이다.
 - 실제 뉴럴 네트워크에는 노드가 많은 꽤 큰 계산 그래프를 이루고 있다. 이 네트워크는 최종 정답과 비교한 후, loss를 계산한다.
 - 목적은 뉴럴 네트워크의 오차를 줄이는 것이므로, output neuron에서 계산된 error(loss)를 각 edge들의 weight로 사용해 바로 이전 layer의 neuron들이 얼마나 error에 영향을 미쳤는지 계산한다.
 - reference: http://sanghyukchun.github.io/74/
