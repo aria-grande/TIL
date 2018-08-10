@@ -53,6 +53,7 @@
 - [Dynamic Array](https://github.com/aria-grande/TIL/blob/master/PS/dynamic_array.md)
 - [Remove duplications from sorted array](https://github.com/aria-grande/TIL/blob/master/PS/remove_duplicates_from_sorted_array.md)
 - [Best time to buy and sell stock](https://github.com/aria-grande/TIL/blob/master/PS/best_time_to_buy_and_sell_stock.md)
+- [Intersection of two arrays](https://github.com/aria-grande/TIL/blob/master/PS/intersection_of_two_arrays.md)
 
 #### Stack & Queue
 - [Balanced brackets](https://github.com/aria-grande/TIL/blob/master/PS/balanced_brackets.md)
