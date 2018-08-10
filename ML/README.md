@@ -1,9 +1,6 @@
 # ML
 This directory is about machine learning.
 
-## Source
-[머신러닝과 딥러닝 BASIC](http://www.edwith.org/others26/)
-
 ## Tools
 - [Install Tensorflow](https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/get_started/os_setup.html)
 
