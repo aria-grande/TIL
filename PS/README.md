@@ -54,7 +54,7 @@
 - [Remove duplications from sorted array](https://github.com/aria-grande/TIL/blob/master/PS/remove_duplicates_from_sorted_array.md)
 - [Best time to buy and sell stock](https://github.com/aria-grande/TIL/blob/master/PS/best_time_to_buy_and_sell_stock.md)
 - [Intersection of two arrays](https://github.com/aria-grande/TIL/blob/master/PS/intersection_of_two_arrays.md)
-- [Find indeices in array add up to the target value](https://github.com/aria-grande/TIL/blob/master/PS/find_indices_add_up_to_target_in_array.md)
+- [Find indices in array add up to the target value](https://github.com/aria-grande/TIL/blob/master/PS/find_indices_add_up_to_target_in_array.md)
 
 #### Stack & Queue
 - [Balanced brackets](https://github.com/aria-grande/TIL/blob/master/PS/balanced_brackets.md)
