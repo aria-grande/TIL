@@ -29,6 +29,7 @@
 
 #### Search
 - [Pairs](https://github.com/aria-grande/TIL/blob/master/PS/pairs.md)
+- [Search an element in a sorted and rotated array](https://github.com/aria-grande/TIL/blob/master/PS/search_element_in_sorted_rotated_array.md)
 
 #### Dynamic Programming
 - [Abbreviation](https://github.com/aria-grande/TIL/blob/master/PS/abbreviation.md) :star:
