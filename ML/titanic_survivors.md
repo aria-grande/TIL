@@ -3,39 +3,38 @@
 ## 참고
 https://github.com/kidokim509/kaggle_titanic
 
-
-weight. activation function이 의미하는것이 무엇일까?
-
-학습의 목적
-
-ㄴ w의 최적 값을 찾는 것이 목적.
-
-perceptron : single neuron object
-
-n개의 연립 방정식 예시
-
-w1, w2 값을 알지 못하는 상태에서, x, y 값만 주고 w를 찾아라!
-
-tensorflow의 placeholder: 데이터를 받아줄 곳
-
-w는 변수다. gradient descendent graph의 x축
+## Data
+https://www.kaggle.com/c/titanic/data
 
 
-Q
+## Perceptron
+![perceptron](images/perceptron.png)
 
-환경 parameter가 여러개더라도 train_set_x, train_set_y 두개만 필요한가?
+## [Gradient Descent Graph](http://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html)
+w는 변수다. The graph의 x축이며, loss가 최소인 (이 그래프의 미분 값이 0인) w를 찾아야 한다.
+![Gradient Descent](images/gradient_descent_graph.png)
 
-age, pclass, sex에 대한 절대적인 값의 범위는 서로 다르므로 가중치가 예상과는 다르게 적용될 수도 있다.
-하여 mean reduced해서 가중치 편차를 최소한으로 
 
-Tensor type: 3 이상의 n차원 행렬 연산
+## Tensorflow
+### [Tensor](https://en.wikipedia.org/wiki/Tensor)
+행렬, 스칼라들 간의 선형 관계를 나타내는 기하적 대상. 벡터 계산을 단순화하기 위해 여러 같은 성질의 벡터를 한 행렬 안에 표기하고 그것을 단순화.
 
+- [What's a Tensor?](https://www.youtube.com/watch?v=f5liqUk0ZTw)
+- [Tensors Explained Intuitively](https://www.youtube.com/watch?v=CliW7kSxxWU)
+
+### [placeholder](https://www.tensorflow.org/api_docs/python/tf/placeholder)
+- Placehoder for a tensor that will be always fed.
+- 데이터를 받아줄 곳
+
+### [softmax](https://www.tensorflow.org/api_docs/python/tf/nn/softmax)
 softmax: input -> 상호간의 확률로 표현해주는 func
-
-7         0.7
-
+```
+7        0.7
     ->
-    
-3         0.3
+3        0.3
+```
 
+## Titanic
+- age, pclass, sex에 대한 절대적인 값의 범위는 서로 다르므로 가중치가 예상과는 다르게 적용될 수도 있다.
+- 하여 mean reduced해서 가중치 편차를 최소한으로 한다.
 
