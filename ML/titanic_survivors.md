@@ -1,7 +1,8 @@
 # tensorflow로 타이타닉 생존자 예측하기
 
 ## 참고
-https://github.com/kidokim509/kaggle_titanic
+- 아리아 진행: https://github.com/aria-grande/TIL/tree/master/ML/KaggleTitanic
+- reference: https://github.com/kidokim509/kaggle_titanic
 
 ## Data
 https://www.kaggle.com/c/titanic/data
