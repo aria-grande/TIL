@@ -38,6 +38,9 @@
 - [Flipping bits](https://github.com/aria-grande/TIL/blob/master/PS/flipping_bits.md)
 
 ### Data structure
+#### String
+- [Find first non-repeating character](https://github.com/aria-grande/TIL/blob/master/PS/find_first_non_repeating_character.md)
+
 #### Array
 - [Contains Duplicate](https://github.com/aria-grande/TIL/blob/master/PS/array_contains_duplicate.md)
 - [Plus one](https://github.com/aria-grande/TIL/blob/master/PS/plus_one_in_array.md)
