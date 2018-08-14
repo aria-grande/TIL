@@ -9,3 +9,6 @@ This directory is about machine learning.
 docker pull tensorflow/tensorflow
 docker run -it -p 8888:8888 tensorflow/tensorflow
  ```
+
+### Jupyter
+- 수식 변환기: http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Typesetting%20Equations.html
