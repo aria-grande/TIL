@@ -21,6 +21,8 @@
 ### HOT 🔥
 - [DevOps](https://github.com/aria-grande/TIL/tree/master/DevOps)
 - [Machine Learning](https://github.com/aria-grande/TIL/tree/master/ML)
+  - [강의:머신러닝과 딥러닝 BASIC](https://github.com/aria-grande/TIL/tree/master/ML/ML_DL_BASIC)
+  - [tensorflow로 타이타닉 생존자 예측하기](https://github.com/aria-grande/TIL/tree/master/ML/KaggleTitanic)
 - [Problem Solving skills](https://github.com/aria-grande/TIL/tree/master/PS)
 
 ### [Seminars by aria](https://github.com/aria-grande/TIL/tree/master/Seminars)
