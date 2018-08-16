@@ -71,7 +71,7 @@ Related video retrieval is a variant of video search or recommendation, where th
 
 ## Personalized Video Recommendation
 - Given a user with watch history, rank videos in a candidate set according to the user's preference.
-연관 비디오 추천에서의 쿼리는 '현재 시청중인 비디오' 였는데, personalized의 쿼리는 user임.
+- 연관 비디오 추천에서의 쿼리는 '현재 시청중인 비디오' 였는데, personalized의 쿼리는 user임.
 
 ### Scalability issues
 - 한 유저가 한 비디오를 볼때마다 candidates를 추천해줘야 함. 엄청난 연산..
