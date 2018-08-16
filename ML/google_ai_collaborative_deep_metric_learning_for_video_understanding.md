@@ -34,10 +34,10 @@ Content + Metadata + Viewer signals(collaborative filtering, 누가 봤는지) -
 7. video annotation
 
 ### Relative video Feature extraction
-![cdfe_architecture](../images/cdfe_architecture.png)
+![cdfe_architecture](images/cdfe_architecture.png)
 
 ### Embedding models: triplet loss
-![triplet loss](../images/triplet_loss.png)
+![triplet loss](images/triplet_loss.png)
 - train a model, preserving pairwise distance between videos.
 - [anchor, positive] closer than [anchor, negative]
 - anchor를 기준으로 positive를 가깝게, negative는 멀도록 training 하는 것.
@@ -50,7 +50,7 @@ Youtube -> [Neural Networks - Triplet Loss, Andrew NG](https://www.youtube.com/w
 
 ### There exists a relative video graph
 Anchor를 랜덤하게 선정, 그에 관련한 positive/negative를 선정해서 트레이닝 시킴.
-![related_video_graph](../images/related_video_graph.png)
+![related_video_graph](images/related_video_graph.png)
 
 #### Negative Reassignment
 - Random negatives are too easy to train fine-grained similarity.
