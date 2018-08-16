@@ -67,7 +67,7 @@ Related video retrieval is a variant of video search or recommendation, where th
 ### Parameter Tuning
 - batch size: batch가 너무 크면 gpu over. 어떻게 해결할 수 있지 여러가지 실험 중.
 - architectures: hidden layer 갯수 조정.
-![cdml_layer_experiment.png](../images/cdml_layer_experiment.png)
+![cdml_layer_experiment.png](images/cdml_layer_experiment.png)
 
 ## Personalized Video Recommendation
 - Given a user with watch history, rank videos in a candidate set according to the user's preference.
