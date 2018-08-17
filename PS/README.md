@@ -40,6 +40,7 @@
 ### Data structure
 #### String
 - [Find first non-repeating character](https://github.com/aria-grande/TIL/blob/master/PS/find_first_non_repeating_character.md)
+- [Valid anagram](https://github.com/aria-grande/TIL/blob/master/PS/valid_anagram.md)
 
 #### Array
 - [Contains Duplicate](https://github.com/aria-grande/TIL/blob/master/PS/array_contains_duplicate.md)
