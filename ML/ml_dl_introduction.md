@@ -13,6 +13,12 @@
 ## Unsupervised Learning
 https://en.wikipedia.org/wiki/Unsupervised_learning
 
+## Semisupervised Learning
+레이블이 일부만 있는 데이터도 다룰 수 있다. 보통은 레이블이 없는 데이터가 많고, 레이블이 있는 데이터는 아주 조금인데, 이 때 semi-supervised learning을 할 수 있다. 
+
+Supervised learning + Unsupervised learning
+
+
 ## [Linear Regression](https://ko.wikipedia.org/wiki/%EC%84%A0%ED%98%95_%ED%9A%8C%EA%B7%80)
 종속 변수 y에 대해 한 개 이상의 독립 변수(x)가  선형 상관 관계를 모델링하는 회귀분석 기법.
 
