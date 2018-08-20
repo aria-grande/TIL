@@ -60,6 +60,7 @@
 - [Best time to buy and sell stock](https://github.com/aria-grande/TIL/blob/master/PS/best_time_to_buy_and_sell_stock.md)
 - [Intersection of two arrays](https://github.com/aria-grande/TIL/blob/master/PS/intersection_of_two_arrays.md)
 - [Find indices in array add up to the target value](https://github.com/aria-grande/TIL/blob/master/PS/find_indices_add_up_to_target_in_array.md)
+- [Get GCD of all elements in array](https://github.com/aria-grande/TIL/blob/master/PS/get_gcd_of_all_elements_in_array.md)
 
 #### Stack & Queue
 - [Balanced brackets](https://github.com/aria-grande/TIL/blob/master/PS/balanced_brackets.md)
