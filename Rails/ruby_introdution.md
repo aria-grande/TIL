@@ -161,8 +161,8 @@ while i < 10 do
 end
 ```
 
-### Default parameter
-- can set default value
+### Default argument
+- can set default value when argument is `nil`.
 ```ruby
 def calculate(income = 0, outcome = 0)
   income - outcome
