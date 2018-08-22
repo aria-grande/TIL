@@ -53,12 +53,40 @@ score = 100
 @@score = 100
 $score = 100
 ```
-- local variable
-- instance variable
-- class variable
-- global variable
+- Local variable: variable shared in a block.
+- Instance variable: variable shared among in an instance.
+- Class variable: variable shared among all objects of a class.
+```ruby
+class User
+  @@call_cnt = 0
+  
+  def initialize(name)
+    @name = name
+  end
+	
+  def call
+    @@call_cnt += 1
+  end
+end
 
-substituting Variables into Strings
+user1 = User.new('aria')
+user1.call
+
+User.class_variable_get(:@@called_cnt) # returns 1
+user1.instance_variable_get(:@name) # 'aria'
+
+user2 = User.new('lion')
+user2.call
+
+User.class_variable_get(:@@called_cnt) # returns 2
+user2.instance_variable_get(:@name) # 'lion'
+```
+
+- Global variable: variable shared in anywhere in the program.
+**Dangerous!!** Should be used sparingly.
+
+
+### Substituting Variables into Strings
 ```ruby
 variable = 'b'
 "a#{variable}c" # 'abc'
@@ -151,6 +179,20 @@ end
 user = User.new('aria', 'kakaomobility')
 user.working? # true
 ```
+### Instance method
+A method only be called with an instance.
+
+### Class method
+A method called without an instance, not beubg tied to any particular object.
+```ruby
+class User
+  # ...
+	
+  def User.find_by_name
+    # ...
+  end
+end
+```
 
 ### Inheritance
 ```ruby
@@ -162,6 +204,51 @@ class VIP < User
 end
 ```
 
+### Access Control
+Access levels to methods within class or module definitions using one or more these functions `public`, `protected`, `private`, like Java.
+
+- public
+callable with an instance.
+
+- private
+Both Private and Protected methods are not accessible from outside of the object as they are used internally to the object.
+callable in an instance.
+
+- protected
+A Protected method is not accessible from outside of the context of the object, but it is **accessible from inside the context of another object of the same type.**
+
+```ruby
+class User
+  def ==(other_user)
+	  self.secret == other_user.secret
+	end
+	
+  def encrypted_secret
+    encrypt(self.secret)
+  end
+	
+  protected
+	
+  def secret
+    'secret key number'
+  end
+	
+  private
+	
+  def secret_for_self
+    self.secret
+  end
+end
+
+user = User.new
+user.secret # protected method 'secret' for #User:sdfd1 (No Method Error)
+user.secret_for_self # private method 'secret_for_self' for #user:sdfd1 (No Method Error)
+user.encrypted_secret # returns the content
+
+user2 = User.new
+user == user2
+```
+
 ## Others
 ### Like letter
 ```ruby
@@ -170,10 +257,8 @@ send_push_message if user.agreed_to_receieve?
 
 ### Safe navigator
 ```java
-user = User.get_by_name(‘아리아’)
-if (user == null) {
-  // do nothing
-} else {
+user = User.getByName(‘아리아’)
+if (user != null) {
   user.sendPushMessage();
 }
 ```
