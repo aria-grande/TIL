@@ -228,8 +228,8 @@ A Protected method is not accessible from outside of the context of the object, 
 ```ruby
 class User
   def ==(other_user)
-	  self.secret == other_user.secret
-	end
+    self.secret == other_user.secret
+  end
 	
   def encrypted_secret
     encrypt(self.secret)
@@ -258,7 +258,7 @@ user == user2
 ```
 
 ## Others
-### Like letter
+### Code Like letter
 ```ruby
 send_push_message if user.agreed_to_receieve?
 ```
