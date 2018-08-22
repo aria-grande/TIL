@@ -157,7 +157,7 @@ end
 ```
 ```ruby
 while i < 10 do
-	i += 1
+  i += 1
 end
 ```
 
