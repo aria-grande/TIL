@@ -74,7 +74,7 @@ bin/rails console
 - managing request routing
 #### config/environments/
 - rails can configure multiple environments and configurations of them.
-#### config.locales/
+#### config/locales/
 - storage of interpretation of error messages, attributes, enums, …
 
 ### db/
@@ -90,7 +90,7 @@ bin/rails console
 - static assets not powered by routes.rb
 
 ### test/
-- test codes.
+- test codes
 
 ### tmp/
 - tempeorary files such as cache, session files, pid.
