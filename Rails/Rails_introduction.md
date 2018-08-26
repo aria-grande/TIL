@@ -2,7 +2,7 @@
 - Rails is a web application development framework written in Ruby.
 
 ## Rails way
-- **Don't repeat your self**: maintainable, more extensible, and less buggy.
+- **Don't repeat yourself**: maintainable, more extensible, and less buggy.
 - **Convention Over Configuration**: Rails has opinions about the best way to do many things in a web application, and defaults to this set of conventions, rather than require that you specify endless configuration files.
 
 ## Rails features
@@ -29,6 +29,12 @@
 - supported by [ActionController](https://guides.rubyonrails.org/action_controller_overview.html)
 
 ## [Directories](https://www.sitepoint.com/a-quick-study-of-the-rails-directory-structure/)
+### [Gemfile](https://bundler.io/gemfile.html)
+- bundler managing dependencies to run your application.
+### package.json
+- javascript package manager using [yarn](https://yarnpkg.com/en/)
+- install packages using command `yarn install`
+
 ### app/
 - application folder
 
@@ -62,12 +68,17 @@ bin/rails console
 
 ### config/
 - route, database, enviornment settings.
+#### config/database.yml
+- configuration for database connection
+#### routes.rb
+- managing request routing
+#### config/environments/
+- rails can configure multiple environments and configurations of them.
+#### config.locales/
+- storage of interpretation of error messages, attributes, enums, …
 
 ### db/
 - db schema histories.
-
-### [Gemfile](https://bundler.io/gemfile.html)
-- bundler managing dependencies to run your application.
 
 ### lib/
 - extension libraries
