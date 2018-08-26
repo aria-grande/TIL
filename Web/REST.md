@@ -123,6 +123,7 @@ DELETE http://www.resources.com/items/17
 | DELETE | /users/:id | ? |
 
 <hr/>
+
 ## See also,
 - https://guides.rorlab.org/routing.html
 - https://spoqa.github.io/2012/02/27/rest-introduction.html
