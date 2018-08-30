@@ -22,6 +22,7 @@
 - [Drawing books](https://github.com/aria-grande/TIL/blob/master/PS/drawing_book.md)
 - [Kangaroo](https://github.com/aria-grande/TIL/blob/master/PS/kangaroo.md)
 - [Longest Consecutive Sequence](https://github.com/aria-grande/TIL/blob/master/PS/longest_consecutive_sequence.md)
+- [Find first missing positive integer](https://github.com/aria-grande/TIL/blob/master/PS/first_missing_positive.md)
 
 #### Sort
 - [Merge sort](https://github.com/aria-grande/TIL/blob/master/PS/merge_sort.md)
