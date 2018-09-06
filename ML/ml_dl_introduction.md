@@ -209,6 +209,24 @@ CNN은 이미지의 공간 정보를 유지한 상태로 학습이 가능한 모
 
 ![CNN](https://www.researchgate.net/profile/Chao_Yan15/publication/283433254/figure/fig6/AS:335737586241543@1457057486978/Architecture-of-our-unsupervised-CNN-Network-contains-three-stages-each-of-which.png)
 
+# [RNN(Recurrent Neural Network)](https://en.wikipedia.org/wiki/Recurrent_neural_network)
+## one to many
+ex: image -> description
+성능이 낮음
+
+## many to one
+sentence -> classification
+ex: I'm going home -> positive
+성능이 낮음
+
+## many to many
+- machine translation
+ex: 카카오 번역
+frequently used
+
+- video classification
+
+
 # [DNN(Deep Neural Network)](https://ko.wikipedia.org/wiki/%EB%94%A5_%EB%9F%AC%EB%8B%9D#%EC%8B%AC%EC%B8%B5_%EC%8B%A0%EA%B2%BD%EB%A7%9D(Deep_Neural_Network,_DNN))
 한 레이어의 뉴런으로는 복잡한 문제를 학습시키기가 어렵다.
 
