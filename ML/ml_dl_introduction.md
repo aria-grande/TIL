@@ -185,6 +185,29 @@ CNN은 이미지의 공간 정보를 유지한 상태로 학습이 가능한 모
 합성곱 연산은 두 함수 f, g 가운데 하나의 함수를 반전(reverse), 전이(shift)시킨 다음, 다른 하나의 함수와 곱한 결과를 적분하는 것을 의미.
 - http://deeplearning.stanford.edu/wiki/index.php/Feature_extraction_using_convolution
 
+## Channel
+- 이미지의 픽셀 하나하나는 실수이다. 컬러 사진은 각 픽셀을 RGB 3개의 실수로 표현한 3차원 데이터이다. 즉, 컬러 이미지는 3개의 채널로 구성된다.
+반면, 흑백 명암만을 표현하는 흑백 사진은 2차원 데이터로 1개 채널로 구성된다.
+- Convolution layer에 유입되는 입력 데이터에는 한 개 이상의 필터가 적용되며 1개의 필터는 Feature Map의 채널이 된다. Convlution layer에 n개의 필터가 적용된다면 출력 데이터는 n개의 채널을 가지게 된다.
+
+## Filter
+- 이미지의 특징을 찾아내기 위한 공용 파라미터이다. Kernel 이라고도 부르며, 일반적으로 정사각 행렬로 정의된다. CNN에서의 학습 대상은 필터 파라미터이다.
+
+## Pooling Layer
+- Convolution layer의 출력 데이터를 입력으로 받아서 출력 데이터의 크기를 줄이거나 특정 데이터를 강조하는 용도로 사용된다.
+- Pooling layer를 통과하면 행렬의 크기가 감소한다.
+- Pooling layer를 통해 채널 수 변경 없음.
+- Max Pooling과 Average Pooling이 있는데, 주로 Max Pooling을 사용한다.
+![pooling layer](https://taewanmerepo.github.io/2018/02/cnn/maxpulling.pn)
+
+## 특징
+- 각 레이어의 입출력 데이터의 형상 유지
+- 이미지의 공간 정보를 유지하면서 인접 이미지와의 특징을 효과적으로 인식
+- 복수의 필터로 이미지의 특징 추출 및 학습
+- 추출한 이미지의 특징을 모으고 강화하는 pooling 레이어
+- 필터를 공유 파라미터로 사용하기 때문에, 일반 NN과 비교하여 학습 파라미터가 적음.
+
+![CNN](https://www.researchgate.net/profile/Chao_Yan15/publication/283433254/figure/fig6/AS:335737586241543@1457057486978/Architecture-of-our-unsupervised-CNN-Network-contains-three-stages-each-of-which.png)
 
 # [DNN(Deep Neural Network)](https://ko.wikipedia.org/wiki/%EB%94%A5_%EB%9F%AC%EB%8B%9D#%EC%8B%AC%EC%B8%B5_%EC%8B%A0%EA%B2%BD%EB%A7%9D(Deep_Neural_Network,_DNN))
 한 레이어의 뉴런으로는 복잡한 문제를 학습시키기가 어렵다.
