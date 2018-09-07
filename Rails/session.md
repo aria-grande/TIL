@@ -1,5 +1,11 @@
 # How sessions work in Ruby on Rails
-[HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)는 [stateless protocol](https://en.wikipedia.org/wiki/Stateless_protocol)이다. 이전 request로부터 얻은 정보로 현재 request를 처리할 수 없다. web은 로그인 기능이 필수이다. http protocol 만으로는 이 기능들을 구현할 수 없으며, session/cookie라는 개념이 등장하게 되었다. 웹 브라우저와 서버 간의 semi-permanent connection이다.
+[HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)는 [stateless protocol](https://en.wikipedia.org/wiki/Stateless_protocol)이다. 
+
+이전 request로부터 얻은 정보로 현재 request를 처리할 수 없다. web은 로그인 기능이 필수이다.
+
+http protocol 만으로는 이 기능들을 구현할 수 없으며, session/cookie라는 개념이 등장하게 되었다.
+
+웹 브라우저와 서버 간의 semi-permanent connection이다.
 
 ## Session & Cookie
 ### Session
@@ -28,7 +34,7 @@
 4. 그 이후의 request에 대해서는 session id 값을 같이 서버에 전달
 5. 로그인 유지
 
-## on Rails!
+## On Rails!
 ```ruby
 $ rails generate controller Sessions new
 ```
@@ -58,8 +64,10 @@ create      app/assets/stylesheets/sessions.scss
 #### app/controllers/sessions_controller.rb
 - 세션 컨트롤러. 로그인, 로그아웃 등
 
-### With [devise](https://github.com/plataformatec/devise)
-Refer https://github.com/aria-grande/TIL/blob/master/Rails/devise.md
+### More convenient with [devise](https://github.com/plataformatec/devise)
+- Refer https://github.com/aria-grande/TIL/blob/master/Rails/devise.md
+
+<hr/>
 
 ## Refer
 - https://www.railstutorial.org/book/basic_login
