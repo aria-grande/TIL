@@ -18,6 +18,19 @@ Rails를 위한, Authentication Library
 - Flexible authentication solution for Rails with Warden.
 
 ## Configure
+### Add to Gemfile
+```ruby
+gem 'devise'
+```
+### Install
+```
+bundle install
+```
+
+```
+rails generate devise:install
+```
+
 ### Configuring models
 ```ruby
 rails g devise user
