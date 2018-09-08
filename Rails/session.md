@@ -27,7 +27,7 @@ http protocol 만으로는 이 기능들을 구현할 수 없으며, session/coo
 저장되는 '일정 시간'이 있지만, 파일로 저장되기 때문에 브라우저를 종료해도 계속 정보가 남아있을 수 있다.
 
 ## Signing in
-
+![session store process](https://cscie12.dce.harvard.edu/lecture_notes/2007-08/20080423/images/http_session_cookie_illustration.png)
 1. 브라우저 접속
 2. Session ID 발급
 3. 쿠키에 session id 저장
