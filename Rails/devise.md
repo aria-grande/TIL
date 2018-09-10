@@ -45,7 +45,7 @@ route  devise_for :users
 
 ### Configuring controllers
 ```ruby
-rails g devise:controller user
+rails g devise:controllers user
 ```
 
 ```
