@@ -86,6 +86,7 @@
 - [Remove Nth node from the end](https://github.com/aria-grande/TIL/blob/master/PS/remove_nth_node_from_end.md)
 - [Find a cycle](https://github.com/aria-grande/TIL/blob/master/PS/linked_list_cycle_detection.md)
 - [Palindrome linked list](https://github.com/aria-grande/TIL/blob/master/PS/palindrome_linked_list.md)
+- [Add two numbers in reverse](https://github.com/aria-grande/TIL/blob/master/PS/add_two_numbers_in_linked_list.md)
 
 #### Trie
 - [Contacts](https://github.com/aria-grande/TIL/blob/master/PS/contacts.md)
