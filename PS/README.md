@@ -45,6 +45,7 @@
 - [Find first non-repeating character](https://github.com/aria-grande/TIL/blob/master/PS/find_first_non_repeating_character.md)
 - [Valid anagram](https://github.com/aria-grande/TIL/blob/master/PS/valid_anagram.md)
 - [Convert to unix standard file path](https://github.com/aria-grande/TIL/blob/master/PS/convert_to_unix_file_path.md)
+- [Remove Comments](https://github.com/aria-grande/TIL/blob/master/PS/remove_comments.md)
 
 #### Array
 - [Contains Duplicate](https://github.com/aria-grande/TIL/blob/master/PS/array_contains_duplicate.md)
