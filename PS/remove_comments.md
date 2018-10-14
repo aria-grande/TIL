@@ -33,7 +33,6 @@ public List<String> removeComments(String[] source) {
   boolean blockCommented = false;
   StringBuilder sb = new StringBuilder();
   for(String line : source) {
-    boolean lineCommented = false;
     if(!blockCommented) {
         sb = new StringBuilder();    
     }
@@ -41,23 +40,22 @@ public List<String> removeComments(String[] source) {
     char[] chars = line.toCharArray();
     for(int i = 0; i < chars.length; ++i) {
       if(i == chars.length - 1) {
-        if (!lineCommented && !blockCommented) {
+        if (!blockCommented) {
           sb.append(chars[i]);    
         }
       }
       else if(!blockCommented && chars[i] == '/' && chars[i + 1] == '/') {
-        lineCommented = true;
-        i++;
+        break;
       }
-      else if(!lineCommented && !blockCommented && chars[i] == '/' && chars[i + 1] == '*') {
+      else if(!blockCommented && chars[i] == '/' && chars[i + 1] == '*') {
         blockCommented = true;
         i++;
       }
-      else if (blockCommented && chars[i] == '*' && chars[i + 1] == '/') {
+      else if(blockCommented && chars[i] == '*' && chars[i + 1] == '/') {
         blockCommented = false;
         i++;
       }
-      else if (!lineCommented && !blockCommented) {
+      else if(!blockCommented) {
         sb.append(chars[i]);
       }
     }
