@@ -37,3 +37,81 @@ date === "Mon Oct 15 2018 08:24:57 GMT+0900 (Korean Standard Time)" // returns f
 - Well supported in all modern browsers.
 - No support in order browsers.
 - ES6: Can use most features in production with transpiling and polyfilling(converting to ES5).
+
+
+
+# How Javascript works behind the scenes
+
+Our code --> Javascript Engine(Parser --Abstract Syntax Tree--> Conversion to Machine Code --> Code Runs)
+
+## Execution Contexts and the Execution Stack
+
+- Execution Context: A box, a container, or a wrapper which stores variables in which a piece of our code is evaluated and executed
+
+  - (DEFAULT) Global Execution Context
+
+    - Code that is not inside any function
+    - Associated with the global object
+    - In the browser, that's the `window` object.
+
+  - New Execution Contexts: `first()`, `second()`, `third()`에 대해 각 새로운 execution context가 execution stack에 push되며, 메소드가 끝나면 각각 pop된다.
+
+    ```js
+    function first() {
+        var a = 'hello';
+        second();
+    }
+    function second() {
+        var b = 'hi';
+        thrid();
+    }
+    function thrid() {
+        var c = 'hey!';
+    	return c;
+    }
+    first();
+    ```
+
+### Execution Context Object
+
+- Variable Object(VO): contains function arguments, function declarations
+- Scope chain: contains the current variable objects as well as the variable objects of all its parents.
+- `this` variable.
+
+#### How it works?
+
+##### 1. Creation phase
+
+1. Creation of the VO
+
+   - The `argument` object is created, containing all the arguments that were passed into the function.
+
+   - Code is scanned for **function declarations**: for each function, a property is created in the VO, **pointing to the funciton**. *Only function declarations will be hoisted. [Function expression](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/function) and [Function constructor](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function) will not be hoisted!*
+
+   - Code is scanned for **variable declarations**: for each variable, a property is created in the VO, and set to `undefined`.
+
+   -  Called **HOISTING!!**
+
+     ```js
+     /* Original code */
+     function first() {
+         console.log(name);
+         var name = "aria";
+         console.log(name);
+     }
+     /* Hoisted code */
+     function first() {
+         var name;
+         console.log(name);
+         name = "aria";
+         console.log(name);
+     }
+     ```
+
+2. Creation of the scope chain
+
+3. Determine value of the `this` variable
+
+##### 2. Execution phase
+
+The code of the function that generated the current execution context is ran line by line.
