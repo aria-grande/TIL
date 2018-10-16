@@ -75,8 +75,35 @@ Our code --> Javascript Engine(Parser --Abstract Syntax Tree--> Conversion to Ma
 ### Execution Context Object
 
 - Variable Object(VO): contains function arguments, function declarations
+
 - Scope chain: contains the current variable objects as well as the variable objects of all its parents.
+
 - `this` variable.
+    ```js
+    // 1. what will be printed?
+    getThis();
+    function getThis() {
+        console.log(this);
+    }
+    
+    // 2. what will be printed?
+    var aria = {
+        name: 'aria',
+        getThis: function() {
+            console.log(this);
+            function innerFunction(){	// <- HINT: this is a regular function
+                console.log(this);
+            }
+            innerFunction();
+        }
+    };
+    aria.getThis();
+    ```
+
+      - **Regular function call**: points at the global object.(the `window` object, in the browser).
+
+      - **Method call**: points to the object that is calling the method. 
+      - attached to an execution context.
 
 #### How it works?
 
