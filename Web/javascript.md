@@ -1,4 +1,7 @@
+
+
 # Javascript
+
 Javascript is an object-based script language used in front-end and back-end. In front-end, it is used to handle events, motions and etc.
 
 ## History
@@ -13,6 +16,7 @@ Javascript is an object-based script language used in front-end and back-end. In
 
 # Syntax
 ## Equality Operators
+
 ### Type coersion
 With use of `==` operator, it converts types string to integer, or etc.
 ```js
@@ -33,7 +37,10 @@ console.log(date); // Mon Oct 15 2018 08:24:57 GMT+0900 (Korean Standard Time)
 date === "Mon Oct 15 2018 08:24:57 GMT+0900 (Korean Standard Time)" // returns false
 ```
 
+
+
 # [ES(ECMAScript)](https://ko.wikipedia.org/wiki/ECMA%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
+
 - Well supported in all modern browsers.
 - No support in order browsers.
 - ES6: Can use most features in production with transpiling and polyfilling(converting to ES5).
@@ -142,3 +149,31 @@ Our code --> Javascript Engine(Parser --Abstract Syntax Tree--> Conversion to Ma
 ##### 2. Execution phase
 
 The code of the function that generated the current execution context is ran line by line.
+
+
+
+# DOM Manipulation
+
+## DOM
+
+-  Document Object Model
+
+- Structured representation of an HTML document.
+- The DOM is used to connect with webpages to scripts like Javascript.
+
+
+
+#Events 
+
+- Events: Notifications that are sent to notify the code that something happened on the webpage
+- **Event listener**: A function that performs an action based on a certain event. It waits for a specific event to happen.
+
+## How events are processed
+
+- An event can only be processed, or handled, <u>as soon as the Execution Stack is empty</u>, which means all of the functions have returned.
+
+- **Message Queue**: all the events that happen in the browser are put. And they sit there, waiting to be processed. 
+
+- When Execution Stack is empty, Event Listener is called. Since Event Listener is a function, it gets its own Execution Context, which is then put at the top of the stack and becomes the active Execution Context.
+
+  ![execution stack when event handler is activated](images/events_stack.png)
