@@ -39,6 +39,76 @@ date === "Mon Oct 15 2018 08:24:57 GMT+0900 (Korean Standard Time)" // returns f
 
 
 
+## [Objects](https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/Basics)
+
+Javascript is object oriented programming language. Almost things are object.
+
+- Primitives: numbers, strings, booleans, undefined, null
+- Object: arrays, functions, objects, dates, wrappers for numbers, strings, booleans, ...
+
+### Inheritance
+
+One object is based on another object.
+
+### [Prototype](https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/Inheritance)
+
+Every Javascript object has a prototype property, which makes inheritance possible in Javascript.
+
+###  How Inheritance work? PROTOTYPE CHAINS
+
+The prototype property of an object is where we put methods and properties that we want other objects to inherit.
+
+
+
+![prototype chains](images/prototype_chains.png)
+
+function `calculateAge` is not a prototype of `Person` itself, but of all instances that are created through the Person blueprint. In other words, **the constructor's prototype property is NOT the prototype of the constructor itself, it's the prototype of all instances that are created through it.**
+
+
+
+**Prototype chain**: what makes all the inheritance possible. When we try to access a certain method, or property on an object, Javascript will first try to find that method on that exact object. If it cannot find it, it will look in the object's prototype, which is the prototype property of its parent. **It continues until the method is found or there's no more prototype to look at, which is null.**
+
+
+
+Let's see an example code below, which is inefficient way.
+
+```js
+function Person(name, birthYear) {
+    this.name = name;
+    this.birthYear = birthYear;
+    this.calculateAge = function() {
+        return 2018 - this.birthYear;
+    }
+}
+var aria = new Person('aria', 1993);
+var maria = new Person('maria', 1992);
+var mark = new Person('mark', 1990);
+```
+
+It will have three copies of the function `calculateAge`. That's why we need inheritance.
+
+
+
+```js
+function Person(name, birthYear) {
+    this.name = name;
+    this.birthYear = birthYear;
+}
+Person.prototype.calculateAge = function() {
+    return 2018 - birthYear;
+}
+var aria = new Person('aria', 1993);
+console.log(aria.calculateAge());
+var maria = new Person('maria', 1992);
+console.log(maria.calculateAge());
+var mark = new Person('mark', 1990);
+console.log(mark.calculateAge());
+```
+
+With this code, effectively none of the objects have the `calculateAge` function attached to them. But still they are going to still use it. They will have an access because of prototype chain.
+
+
+
 # [ES(ECMAScript)](https://ko.wikipedia.org/wiki/ECMA%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
 
 - Well supported in all modern browsers.
@@ -177,3 +247,9 @@ The code of the function that generated the current execution context is ran lin
 - When Execution Stack is empty, Event Listener is called. Since Event Listener is a function, it gets its own Execution Context, which is then put at the top of the stack and becomes the active Execution Context.
 
   ![execution stack when event handler is activated](images/events_stack.png)
+
+
+
+---
+
+Refer: https://www.udemy.com/the-complete-javascript-course/
