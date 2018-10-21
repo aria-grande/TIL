@@ -1,29 +1,17 @@
 # 어피치 로그인 폼
 
-
-
 ![apeach_login](images/apeach_login.gif)
 
-
-
 데뷰 2018에서 우연히 [LoginCritter](https://github.com/cgoldsby/LoginCritter)를 알게 되어, 어피치 버전으로 간단하게 만들어 보았습니다.
-
 >  An animated avatar that responds to text field interactions.
 
-
-
 ## 목적
-
 - [SVG(Scalable Vector Graphic)](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg)를 사용해보자!
 - [CSS transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)을 사용해보자!
 - 어피치는 내가 제일 좋아하는 캐릭터!
 
-
-
 ## 코드
-
 ### HTML
-
 ```html
 <div id="apeach-login-form">
   <form>
@@ -170,10 +158,7 @@ passwordElement.addEventListener("focusout", function() {
 });
 ```
 
-
-
 ## 느낀점
-
 - 얼굴도 움직이고, 입도 옴싹달싹 하면 좋겠다!
 - 그렇게 고퀄로 만들기엔 각도 계산도 필요하고, svg에 대한 마스터링이 필요하다.
 - 나중에 하고 싶을 때 해보자!
