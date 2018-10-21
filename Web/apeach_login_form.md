@@ -1,6 +1,6 @@
 # 어피치 로그인 폼
 
-![apeach_login](images/apeach_login.gif)
+![apeach_login](images/apeach-login.gif)
 
 데뷰 2018에서 우연히 [LoginCritter](https://github.com/cgoldsby/LoginCritter)를 알게 되어, 어피치 버전으로 간단하게 만들어 보았습니다.
 >  An animated avatar that responds to text field interactions.
