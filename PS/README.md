@@ -58,6 +58,7 @@
 - [Is there a cycle in array?](find_cycle_in_array.md)
 - [Can array be return to the first element?](array_can_be_return_to_the_first.md)
 - [Find outlier in array](find_outlier.md)
+- [Find missing number](find_missing_number.md)
 - [Divisible sum pairs](divisible_sum_pairs.md)
 - [Circular Array Rotation](circular_array_rotation.md)
 - [Dynamic Array](dynamic_array.md)
