@@ -135,17 +135,16 @@ var emailElement = document.getElementById("email");
 emailElement.addEventListener("focus", function() {
   leftEye.move(-5, 2, 0);
   rightEye.move(-7, 2, 0);
-})
+});
 emailElement.addEventListener("input", function() {
   var textCount = this.selectionEnd;
   if(textCount > maxTextCount) {
     textCount = maxTextCount;
   }
-  var y = Math.pow((textCount - maxTextCount / 2), 2) / 30;
-  leftEye.move(textCount / 2 - 2, -y, 0);
-  rightEye.move(textCount / 3 - 2, -y, 0);
+  var y = Math.max(2, Math.pow((textCount - maxTextCount / 2), 2) / 25);
+  leftEye.move(textCount / 1.5 - 5, y, 0);
+  rightEye.move(textCount / 2 - 7, y, 0);
 });
-
 
 var passwordElement = document.getElementById("pw");
 passwordElement.addEventListener("focus", function() {
