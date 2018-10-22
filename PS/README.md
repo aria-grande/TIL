@@ -24,7 +24,7 @@
 - [Longest Consecutive Sequence](longest_consecutive_sequence.md)
 - [Find first missing positive integer](first_missing_positive.md)
 - [Strobogrammatic Number](strobogrammatic_number.md)
-- [Generate All Combinations of Parenthesis](generate_parentheses.md)
+- [Generate All Combinations of Parentheses](generate_parentheses.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
