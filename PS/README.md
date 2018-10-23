@@ -68,6 +68,7 @@
 - [Intersection of two arrays](intersection_of_two_arrays.md)
 - [Find indices in array add up to the target value](find_indices_add_up_to_target_in_array.md)
 - [Get GCD of all elements in array](get_gcd_of_all_elements_in_array.md)
+- [Island Perimeter](island_perimeter.md)
 
 #### Stack & Queue
 - [Balanced brackets](balanced_brackets.md)
