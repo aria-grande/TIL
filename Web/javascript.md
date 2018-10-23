@@ -95,7 +95,7 @@ function Person(name, birthYear) {
     this.birthYear = birthYear;
 }
 Person.prototype.calculateAge = function() {
-    return 2018 - birthYear;
+    return 2018 - this.birthYear;
 }
 var aria = new Person('aria', 1993);
 console.log(aria.calculateAge());
@@ -103,6 +103,8 @@ var maria = new Person('maria', 1992);
 console.log(maria.calculateAge());
 var mark = new Person('mark', 1990);
 console.log(mark.calculateAge());
+
+aria.__proto__ == Person.prototype	// returns true
 ```
 
 With this code, effectively none of the objects have the `calculateAge` function attached to them. But still they are going to still use it. They will have an access because of prototype chain.
