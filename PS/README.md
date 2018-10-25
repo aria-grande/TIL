@@ -47,7 +47,6 @@
 - [Valid anagram](valid_anagram.md)
 - [Convert to unix standard file path](convert_to_unix_file_path.md)
 - [Remove Comments](remove_comments.md)
-- [Jewels and Stones](jewels_and_stones.md)
 
 #### Array
 - [Contains Duplicate](array_contains_duplicate.md)
@@ -70,6 +69,9 @@
 - [Find indices in array add up to the target value](find_indices_add_up_to_target_in_array.md)
 - [Get GCD of all elements in array](get_gcd_of_all_elements_in_array.md)
 - [Island Perimeter](island_perimeter.md)
+
+#### Set
+- [Jewels and Stones](jewels_and_stones.md)
 
 #### Stack & Queue
 - [Balanced brackets](balanced_brackets.md)
