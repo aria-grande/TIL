@@ -14,7 +14,7 @@ SELECT * FROM coupon_instances WHERE user_id = 1;     # empty result
   
    > master-slave 간의 동기화에 시간이 걸리는게 아닐까?
 
-2. 로컬에서는 정상동작하는데 알파에선 왜 이상하게 동작하는지 생각해보니, sharding은 알파 이상의 환경에서만 설정 및 동작하고 있음.
+2. 로컬에서는 정상동작하는데 알파에선 왜 이상하게 동작하는지 생각해보니, replicate는 알파 이상의 환경에서만 설정 및 동작하고 있음.
 3. `update - select`를 모두 master에서 하도록 코드 수정
 ```ruby
 Octopus.using(:master) do
