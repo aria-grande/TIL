@@ -1,5 +1,5 @@
 # 환경
-DB sharding을 위해 [Octopus](https://github.com/thiagopradi/octopus)라는 gem을 사용 중에 있음.
+DB replicate 위해 [Octopus](https://github.com/thiagopradi/octopus)라는 gem을 사용 중에 있음.
 
 # 문제
 한 테이블에 대해 update 후 select를 했으나 빈 결괏값이 나옴.
@@ -10,7 +10,7 @@ SELECT * FROM coupon_instances WHERE user_id = 1;     # empty result
 현상을 살펴보니 로컬에서는 잘 결괏값이 나오지만, 알파 환경에서만 나오지 않고 있음.
 
 # 해결
-1. 엄청난 삽질 끝에, **sharding과 관련있지 않을까?** 라는 생각이 문득 들게 됨.
+1. 엄청난 삽질 끝에, **sharding/replicate과 관련있지 않을까?** 라는 생각이 문득 들게 됨.
   
    > master-slave 간의 동기화에 시간이 걸리는게 아닐까?
 
@@ -23,4 +23,8 @@ Octopus.using(:master) do
 end
 ```
 
-- 참고: https://github.com/thiagopradi/octopus/wiki/sharding
+##참고
+- https://github.com/thiagopradi/octopus/wiki/Replication
+- https://github.com/thiagopradi/octopus/wiki/sharding
+- https://github.com/thiagopradi/octopus/wiki/config-file
+- https://github.com/aria-grande/TIL/blob/master/DB/shard_replication.md
