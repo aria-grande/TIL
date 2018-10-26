@@ -24,6 +24,7 @@
 - [Longest Consecutive Sequence](longest_consecutive_sequence.md)
 - [Find first missing positive integer](first_missing_positive.md)
 - [Strobogrammatic Number](strobogrammatic_number.md)
+- [Generate All Combinations of Parentheses](generate_parentheses.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
@@ -67,11 +68,16 @@
 - [Intersection of two arrays](intersection_of_two_arrays.md)
 - [Find indices in array add up to the target value](find_indices_add_up_to_target_in_array.md)
 - [Get GCD of all elements in array](get_gcd_of_all_elements_in_array.md)
+- [Island Perimeter](island_perimeter.md)
+
+#### Set
+- [Jewels and Stones](jewels_and_stones.md)
 
 #### Stack & Queue
 - [Balanced brackets](balanced_brackets.md)
 - [Maximum of Equal Heights of Stacks](equal_stacks.md)
 - [Largest Rectangle](largest_rectangle.md)
+- [Valid Parentheses](valid_parentheses.md)
 
 #### Tree
 - [Is this a Binary Search Tree?](check_binary_search_tree.md)
