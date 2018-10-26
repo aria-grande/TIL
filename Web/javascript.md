@@ -54,7 +54,7 @@ One object is based on another object.
 
 Every Javascript object has a prototype property, which makes inheritance possible in Javascript.
 
-###  How Inheritance work? PROTOTYPE CHAINS
+###  [How Inheritance work? PROTOTYPE CHAINS](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain)
 
 The prototype property of an object is where we put methods and properties that we want other objects to inherit.
 
@@ -108,6 +108,84 @@ aria.__proto__ == Person.prototype	// returns true
 ```
 
 With this code, effectively none of the objects have the `calculateAge` function attached to them. But still they are going to still use it. They will have an access because of prototype chain.
+
+#### Object.create! Another way to create Object
+
+```js
+var personProto = {
+    calculateAge: function() {
+        return 2018 - this.birthYear;
+    }
+};
+
+var aria = Object.create(personProto);
+console.log(aria);							// what will be printed?
+console.log(aria.__proto__);				// what will be printed?
+aria.birthYear = 1993;
+console.log(aria.calculateAge());			// what will be printed?
+
+var maria = Object.create(personProto, {
+   yearOfBirth: { value: 1992 }
+});
+console.log(maria);							// what will be printed?
+```
+
+- `Object.create`로 객체를 생성하게 되면, `calculateAge`같은 함수는 proto로 들어가게 된다. 
+- `Object.create` builds an object that **inherits directly from the one that we passed** into the first argument, while `function` constructor **the newly created object inherits from the constructor's prototype property**.
+- One of the biggest benefits of `Object.create`is that allows us to implement a really complex inheritant structures in an easier way than `function` constructors because it **allows us to directly specify which object should be a prototype**.
+
+
+
+##### Object.create vs function consturctor
+
+- Read this: https://nodeway.wordpress.com/2015/02/16/javascript-prototype/
+
+- Summary
+  - Object.create({prototype}) : prototype이 parameter로 들어오므로, prototype property 선택에 유연하다.
+  - new Car(): 애초에 Car type의 prototype으로 객체를 생성하게 되므로 선택할 수 없다.
+
+
+
+### Primitives vs. Objects
+
+- Primitive type variables **actually hold that data inside of the variable itself.**
+
+- Object type variables do not actually contain the object. They contain a reference to the place in memory where the object is stored. **It just points the object!**
+
+  ```js
+  // What wil be printed?
+  var obj1 = {
+      name: 'aria',
+      age: 10
+  };
+  var obj2 = obj1;
+  obj1.age = 20;
+  console.log(obj1.age);
+  console.log(obj2.age);
+  ```
+
+- In function argument, primitive type variables will be copied itself and object type variables will be copied of its reference
+
+  ```js
+  // What wil be printed?
+  var age = 26;
+  var obj = {
+      name: 'aria',
+      city: 'Pangyo'
+  };
+  function change(a, b) {
+      a = 30;
+      b.city = 'San Francisco';
+  }
+  change(age, obj);
+  
+  console.log(age);
+  console.log(obj);
+  ```
+
+  `age` is still 26. It will never affect the variable on the outside because it is a primitive.
+
+
 
 
 
