@@ -91,6 +91,7 @@
 - [Find All duplicated subtrees](find_dupliate_subtrees.md)
 - [Sum of Left Leaves](sum_of_left_leaves.md)
 - [Kth smallest element in sorted matrix](kth_smallest_in_sorted_matrix.md)
+- [Kth smalles element in BST](kth_smallest_element_in_bst.md)
 
 #### Linked List
 - [Compare two linked lists](compare_two_linked_lists.md)
