@@ -85,6 +85,7 @@
 - [Get Depth of a Binary Tree](get_depth_of_binary_tree.md)
 - [Breadth First Search](tree_breadth_first_search.md)
 - [Inorder traversal](tree_inorder_traversal.md)
+- [Preorder traversal](binary_tree_preorder_traversal.md)
 - [No Prefix Set](no_prefix_set.md)
 - [Connected cell in a grid](connected_grid_cell.md)
 - [Reverse a binary tree](reverse_binary_tree.md)
