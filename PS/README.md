@@ -25,6 +25,7 @@
 - [Find first missing positive integer](first_missing_positive.md)
 - [Strobogrammatic Number](strobogrammatic_number.md)
 - [Generate All Combinations of Parentheses](generate_parentheses.md)
+- [Longest Harmonious Subsequence](longest_harmonious_subsequence.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
