@@ -23,6 +23,7 @@
 - [Kangaroo](kangaroo.md)
 - [Longest Consecutive Sequence](longest_consecutive_sequence.md)
 - [Find first missing positive integer](first_missing_positive.md)
+  - 다른 날 codility에서 만났다. [문제](missing_integer.md)
 - [Strobogrammatic Number](strobogrammatic_number.md)
 - [Generate All Combinations of Parentheses](generate_parentheses.md)
 - [Longest Harmonious Subsequence](longest_harmonious_subsequence.md)
