@@ -46,6 +46,10 @@ public int solution(int[] A) {
 Time complexity: O(N)
 
 Space complexity: O(N)
+
 # Report
 - 1st attempt: https://app.codility.com/demo/results/trainingHHDJ86-M9D/
 - 2nd attempt: https://app.codility.com/demo/results/trainingCTFZP3-FVN/
+
+
+- 이것은 풀어봤던 문제였다. https://github.com/aria-grande/TIL/blob/master/PS/first_missing_positive.md
