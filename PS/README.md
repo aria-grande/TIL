@@ -72,6 +72,7 @@
 - [Get GCD of all elements in array](get_gcd_of_all_elements_in_array.md)
 - [Island Perimeter](island_perimeter.md)
 - [Frog River One, Codility](frog_river_one.md)
+- [Passing Cars, Codility](passing_cars.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
