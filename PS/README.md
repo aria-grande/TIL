@@ -32,6 +32,7 @@
 - [Merge sort](merge_sort.md)
 - [Quick sort](quick_sort.md)
 - [Find maximum count to buy in the budget](mark_and_toys.md)
+- [Max product of three in array](max_product_of_three_in_array.md)
 
 #### Search
 - [Pairs](pairs.md)
