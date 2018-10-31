@@ -75,6 +75,7 @@
 - [Frog River One, Codility](frog_river_one.md)
 - [Passing Cars, Codility](passing_cars.md)
 - [Array Triangle, Codility](array_triangle.md)
+- [Donimator, Codility](dominator.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
