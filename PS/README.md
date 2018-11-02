@@ -27,6 +27,7 @@
 - [Strobogrammatic Number](strobogrammatic_number.md)
 - [Generate All Combinations of Parentheses](generate_parentheses.md)
 - [Longest Harmonious Subsequence](longest_harmonious_subsequence.md)
+- [Equi Leader](equi_leader.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
