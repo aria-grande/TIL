@@ -1,6 +1,40 @@
 # Problem
 https://leetcode.com/problems/add-two-numbers
 
+# Solution (recent try)
+```java
+// add l1 into l2
+public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    ListNode n1 = l1;
+    ListNode n2 = l2;
+    int passed = 0;
+    while(n1 != null && n2 != null) {
+        int sum = n1.val + n2.val + passed;
+        n2.val = sum % 10;
+        passed = sum / 10;
+        if((n1.next != null || passed == 1) && n2.next == null) {
+            n2.next = new ListNode(0);  
+        }            
+        n1 = n1.next;
+        n2 = n2.next;
+    }
+    while(n2 != null) {
+        int sum = n2.val + passed;
+        n2.val = sum % 10;
+        passed = sum / 10;
+        if(n2.next == null && passed == 1) {
+            n2.next = new ListNode(0);    
+        }
+        n2 = n2.next;
+    }
+    return l2;
+}
+```
+
+Time complexity: O(max(m, n))
+
+Space complexity: O(1)
+
 # Solution
 ```java
 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
