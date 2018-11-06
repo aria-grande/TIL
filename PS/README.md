@@ -78,6 +78,7 @@
 - [Passing Cars, Codility](passing_cars.md)
 - [Array Triangle, Codility](array_triangle.md)
 - [Donimator, Codility](dominator.md)
+- [Maximum average of subarray](maximum_average_subarray.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
