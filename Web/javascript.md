@@ -187,6 +187,92 @@ console.log(maria);							// what will be printed?
 
 
 
+## Functions
+
+함수를 정의하는 방법은 Function 객체를 사용하는 것과, 연산자인 function을 사용하는 방법이 있다. 일반적으로 Function 객체를 사용한 정의 방법은 많이 사용되지 않는다. 연산자인 function을 이용한 함수 정의 방식은 함수 선언문(function declaration)과 함수 표현식(function expression)으로 나뉜다.
+
+### Function declaration
+
+Function assigned in a variable `multiply` defined with `Function` constructor.
+
+```js
+function multiply(x, y) {
+    return x * y;
+}
+```
+
+### Function expression
+
+함수가 변수에 할당 된 것이므로 '함수는 객체'이다. 함수 표현식은 함수 선언식과는 달리 스크립트 로딩 시점에 VO에 함수를 저장하지 않고 runtime시에 해석되고 실행된다.
+
+함수선언식(function declaration)은 사용하기에 쉽지만 대규모 어플리케이션을 개발하는 경우 인터프리터가 너무 많은 코드를 VO에 저장하므로 어플리케이션의 응답속도는 현저히 떨어질 수 있으므로 주의할 필요가 있다.
+
+#### Anonymous function expression
+
+Function assinged in a variable `multiply` defined with anonymous function expression.
+
+```js
+var multiply = function(x, y) {
+    return x * y;
+}
+```
+
+#### Named function expression
+
+Function assigned in a variable `multiply` defined with a function named `func_name`.
+
+```JS
+var multiply = funciton func_name(x, y) {
+    return x * y;
+}
+```
+
+#### Named immediately-invoked function expression
+
+```js
+(function company() {
+    return 'company';
+})();
+```
+
+#### Immediately-invoked function expression
+
+```js
+(function() {
+    return "blahblah";
+})();
+```
+
+```js
+var multiply = function func_name(x, y) {
+    return x * y;
+}
+// what will happen?
+console.log(func_name);
+```
+
+- 함수 이름은 변경될 수 없다.
+- 하지만, 함수가 할당된 변수는 재할당 될 수 있다.
+
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions#Function_%EC%83%9D%EC%84%B1%EC%9E%90_%EB%8C%80_function_%EC%84%A0%EC%96%B8_%EB%8C%80_function_%EC%8B%9D
+
+
+
+## First Class functions
+
+- A function is an instance of the Object type
+- A function behaves like any other object.
+- We can store functions in a variable.
+- We can pass a function as an argument to another function.
+- We can return a function from a function.
+- 
+
+
+
+
+
+---
+
 
 
 # [ES(ECMAScript)](https://ko.wikipedia.org/wiki/ECMA%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
