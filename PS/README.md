@@ -21,15 +21,20 @@
 - [Print matrix spirally](print_matrix_spirally.md)
 - [Drawing books](drawing_book.md)
 - [Kangaroo](kangaroo.md)
-- [Longest Consecutive Sequence](longest_consecutive_sequence.md)
 - [Find first missing positive integer](first_missing_positive.md)
+  - 다른 날 codility에서 만났다. [문제](missing_integer.md)
 - [Strobogrammatic Number](strobogrammatic_number.md)
 - [Generate All Combinations of Parentheses](generate_parentheses.md)
+- [Longest Consecutive Sequence](longest_consecutive_sequence.md)
+- [Longest Harmonious Subsequence](longest_harmonious_subsequence.md)
+- [Longest Substring without repeat](longest_substring_without_repeat.md)
+- [Equi Leader](equi_leader.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
 - [Quick sort](quick_sort.md)
 - [Find maximum count to buy in the budget](mark_and_toys.md)
+- [Max product of three in array](max_product_of_three_in_array.md)
 
 #### Search
 - [Pairs](pairs.md)
@@ -69,6 +74,11 @@
 - [Find indices in array add up to the target value](find_indices_add_up_to_target_in_array.md)
 - [Get GCD of all elements in array](get_gcd_of_all_elements_in_array.md)
 - [Island Perimeter](island_perimeter.md)
+- [Frog River One, Codility](frog_river_one.md)
+- [Passing Cars, Codility](passing_cars.md)
+- [Array Triangle, Codility](array_triangle.md)
+- [Donimator, Codility](dominator.md)
+- [Maximum average of subarray](maximum_average_subarray.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
@@ -84,10 +94,14 @@
 - [Get Depth of a Binary Tree](get_depth_of_binary_tree.md)
 - [Breadth First Search](tree_breadth_first_search.md)
 - [Inorder traversal](tree_inorder_traversal.md)
+- [Preorder traversal](binary_tree_preorder_traversal.md)
 - [No Prefix Set](no_prefix_set.md)
 - [Connected cell in a grid](connected_grid_cell.md)
 - [Reverse a binary tree](reverse_binary_tree.md)
 - [Find All duplicated subtrees](find_dupliate_subtrees.md)
+- [Sum of Left Leaves](sum_of_left_leaves.md)
+- [Kth smallest element in sorted matrix](kth_smallest_in_sorted_matrix.md)
+- [Kth smalles element in BST](kth_smallest_element_in_bst.md)
 
 #### Linked List
 - [Compare two linked lists](compare_two_linked_lists.md)
