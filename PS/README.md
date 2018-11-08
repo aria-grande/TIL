@@ -79,6 +79,7 @@
 - [Array Triangle, Codility](array_triangle.md)
 - [Donimator, Codility](dominator.md)
 - [Maximum average of subarray](maximum_average_subarray.md)
+- [Range Addition 2](range_addition_2.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
