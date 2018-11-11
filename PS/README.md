@@ -114,6 +114,7 @@
 - [Find a cycle](linked_list_cycle_detection.md)
 - [Palindrome linked list](palindrome_linked_list.md)
 - [Add two numbers in reverse](add_two_numbers_in_linked_list.md)
+- [Swap nodes in pairs](swap_nodes_in_pairs.md)
 
 #### Trie
 - [Contacts](contacts.md)
