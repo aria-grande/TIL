@@ -80,6 +80,7 @@
 - [Donimator, Codility](dominator.md)
 - [Maximum average of subarray](maximum_average_subarray.md)
 - [Range Addition 2](range_addition_2.md)
+- [Transpose Matrix](transpose_matrix.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
