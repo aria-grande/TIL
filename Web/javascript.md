@@ -5,7 +5,7 @@
 Javascript is an object-based script language used in front-end and back-end. In front-end, it is used to handle events, motions and etc.
 
 ## History
-- 1996: Changed from LiveScript to Javascript to attract Java adevelopers.Javascript has almost nothing to do with Java.
+- 1996: Changed from LiveScript to Javascript to attract Java developers. Javascript has almost nothing to do with Java.
 - 1997: ES1(ECMAScript1) became the first version of the JavaScript language standard:
   - ECMAScript: The language standard.
   - JavaScript: The language in practice.
