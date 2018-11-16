@@ -29,6 +29,7 @@
 - [Longest Harmonious Subsequence](longest_harmonious_subsequence.md)
 - [Longest Substring without repeat](longest_substring_without_repeat.md)
 - [Equi Leader](equi_leader.md)
+- [Perfect Valid Square](perfect_valid_square.md) :star:
 
 #### Sort
 - [Merge sort](merge_sort.md)
