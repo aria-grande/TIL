@@ -29,6 +29,8 @@
 - [Longest Harmonious Subsequence](longest_harmonious_subsequence.md)
 - [Longest Substring without repeat](longest_substring_without_repeat.md)
 - [Equi Leader](equi_leader.md)
+- [Perfect Valid Square](perfect_valid_square.md) :star:
+- [Insert/Delete/GetRandom dupliates allowed](insert_delete_getrandom_duplicates_allowed.md) :star:
 
 #### Sort
 - [Merge sort](merge_sort.md)
@@ -80,6 +82,7 @@
 - [Donimator, Codility](dominator.md)
 - [Maximum average of subarray](maximum_average_subarray.md)
 - [Range Addition 2](range_addition_2.md)
+- [Transpose Matrix](transpose_matrix.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
@@ -104,6 +107,8 @@
 - [Kth smallest element in sorted matrix](kth_smallest_in_sorted_matrix.md)
 - [Kth smalles element in BST](kth_smallest_element_in_bst.md)
 - [Maximum Binary Tree](maximum_binary_tree.md)
+- [Diameter of Binary Tree](diameter_of_binary_tree.md)
+- [Binary Tree Longest Consecutive Sequence](binary_tree_longest_consecutive_sequence.md)
 
 #### Linked List
 - [Compare two linked lists](compare_two_linked_lists.md)
@@ -113,6 +118,7 @@
 - [Find a cycle](linked_list_cycle_detection.md)
 - [Palindrome linked list](palindrome_linked_list.md)
 - [Add two numbers in reverse](add_two_numbers_in_linked_list.md)
+- [Swap nodes in pairs](swap_nodes_in_pairs.md)
 
 #### Trie
 - [Contacts](contacts.md)
