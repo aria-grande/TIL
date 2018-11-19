@@ -52,4 +52,7 @@
 
 ---
 ## 참고
-https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html
+- https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html
+- https://rampart81.github.io/post/docker_image/
+- https://medium.com/@jessgreb01/digging-into-docker-layers-c22f948ed612
+
