@@ -1,4 +1,6 @@
 # [Docker](https://www.docker.com/)
+![docker logo](https://cdn-images-1.medium.com/max/1600/1*d-HKujYLR5Q2QED4ybEiPw.png)
+
 컨테이너 기반의 오픈소스 가상화 플랫폼
 
 리눅스의 응용 프로그램들을 소프트웨어 컨테이너 안에 배치시키는 일을 자동화하는 오픈 소스 프로젝트이다.
@@ -34,6 +36,8 @@
 베이스 이미지들의 파일 시스템은 병합 마운트(Union Mount) 방식으로 합쳐진다.
 
 ### 병합 마운트(Union Mount)
+![Union mount](https://ssup2.github.io/images/theory_analysis/Union_Mount_AUFS_Docker_Image_Layer/Union_Mount.PNG)
+
 동일한 디렉토리에 여러 파일 시스템을 마운트하는 기술이다.
 
 
