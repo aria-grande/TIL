@@ -84,6 +84,7 @@
 - [Maximum average of subarray](maximum_average_subarray.md)
 - [Range Addition 2](range_addition_2.md)
 - [Transpose Matrix](transpose_matrix.md)
+- [Convert Sorted Array to Binary Search Tree](convert_sorted_array_to_bst.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
