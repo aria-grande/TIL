@@ -41,6 +41,7 @@
 #### Search
 - [Pairs](pairs.md)
 - [Search an element in a sorted and rotated array](search_element_in_sorted_rotated_array.md)
+- [Find smallest letter greater than target](find_smallest_letter_greater_than_target.md)
 
 #### Dynamic Programming
 - [Abbreviation](abbreviation.md) :star:
