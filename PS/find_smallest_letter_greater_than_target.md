@@ -4,7 +4,14 @@ https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 
 # Solution (Linearly)
 ```java
-
+public char nextGreatestLetter(char[] letters, char target) {
+    for(char c : letters) {
+        if(c > target) {
+            return c;
+        }
+    }
+    return letters[0];
+}
 ```
 Time complexity: O(N)
 
