@@ -68,3 +68,42 @@ List<Integer> mergeAndSort(List<Integer> l1, List<Integer> l2) {
 Time complexity: O(N1+N2)<br/>
 Space complexity: O(N1+N2)
 
+# Solution 2
+```java
+public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+    if(l1 == null) {
+        return l2;
+    }
+    if(l2 == null) {
+        return l1;
+    }
+
+    ListNode merged = new ListNode(-1);
+    ListNode p = merged;
+    ListNode p1 = l1;
+    ListNode p2 = l2;
+
+    while(p1 != null && p2 != null) {
+        if(p1.val < p2.val) {
+            p.next = new ListNode(p1.val);
+            p = p.next;
+            p1 = p1.next;
+        }
+        else {
+            p.next = new ListNode(p2.val);
+            p = p.next;
+            p2 = p2.next;
+        }
+    }
+    while(p1 != null) {
+        p.next = new ListNode(p1.val);
+        p = p.next;
+        p1 = p1.next;
+    }
+    while(p2 != null) {
+        p.next = new ListNode(p2.val);
+        p = p.next;
+        p2 = p2.next;
+    }
+    return merged.next;
+```
