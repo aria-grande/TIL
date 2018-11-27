@@ -2,6 +2,9 @@
 문제 해결 능력, 논리 사고력을 기르기 위한 문제들 풀기!
 
 ## Table of Contents
+
+### [DB](DB)
+
 ### Algorithm
 - [Find only one unique number in array](find_only_one_uniq_number.md)
 - [Find all prime numbers until N](find_prime_numbers.md)
