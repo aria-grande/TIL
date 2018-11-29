@@ -34,7 +34,7 @@
 - [Equi Leader](equi_leader.md)
 - [Perfect Valid Square](perfect_valid_square.md) :star:
 - [Insert/Delete/GetRandom dupliates allowed](insert_delete_getrandom_duplicates_allowed.md) :star:
-- [Factorial Trailing Zeroes](factorial_trailing_zeroes.md)
+- [Factorial Trailing Zeroes](factorial_trailing_zeroes.md) :star:
 
 #### Sort
 - [Merge sort](merge_sort.md)
@@ -78,7 +78,7 @@
 - [Dynamic Array](dynamic_array.md)
 - [Remove duplications from sorted array](remove_duplicates_from_sorted_array.md)
 - [Best time to buy and sell stock](best_time_to_buy_and_sell_stock.md)
-- [Best Time to Buy and Sell Stock 3](best_time_to_buy_and_sell_stock3.md)
+- [Best Time to Buy and Sell Stock 3](best_time_to_buy_and_sell_stock3.md)  :star:
 - [Intersection of two arrays](intersection_of_two_arrays.md)
 - [Find indices in array add up to the target value](find_indices_add_up_to_target_in_array.md)
 - [Get GCD of all elements in array](get_gcd_of_all_elements_in_array.md)
