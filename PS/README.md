@@ -34,6 +34,7 @@
 - [Equi Leader](equi_leader.md)
 - [Perfect Valid Square](perfect_valid_square.md) :star:
 - [Insert/Delete/GetRandom dupliates allowed](insert_delete_getrandom_duplicates_allowed.md) :star:
+- [Factorial Trailing Zeroes](factorial_trailing_zeroes.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
