@@ -1,4 +1,4 @@
-# 클로저(Clojure)
+# 클로저(Closure)
 클로저는 함수의 생성 시점의 스코프에 있는 모든 변수의 집합이다. 클로저 안에 정의된 함수는 만들어진 환경을 기억한다.
 ```js
 function sum(x) {
@@ -34,7 +34,7 @@ count();
 function count() {
   var i = 0;
   for(i = 0; i < 5; i++) {
-    (function(i) {                 // ← clojure
+    (function(i) {                 // ← closure
       setTimeout(function() {
         console.log(i);
       }, 1000);
