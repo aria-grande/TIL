@@ -44,8 +44,7 @@ void mergeSort(int[] arr, int left, int right) {
     }
     
     for(int elem : merged) {
-      arr[left] = elem;
-      left++;
+      arr[left++] = elem;
     }
   }
 ```
