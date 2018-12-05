@@ -46,6 +46,7 @@
 #### Search
 - [Pairs](pairs.md)
 - [Search an element in a sorted and rotated array](search_element_in_sorted_rotated_array.md)
+  - 유사문제 from leetcode: [Search in rotated sorted array](search_in_rotated_sorted_array.md)
 - [Find smallest letter greater than target](find_smallest_letter_greater_than_target.md)
 
 #### Dynamic Programming
