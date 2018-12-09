@@ -59,3 +59,29 @@ mounted() {
 ## Option/Data
 https://kr.vuejs.org/v2/api/#%EC%98%B5%EC%85%98-%EB%8D%B0%EC%9D%B4%ED%84%B0
   
+  
+## Slot
+좋은 기능을 알았다. 부모 컴포넌트에서 자식 컴포넌트로 DOM element를 전달할 수 있다.
+
+React에서는 `{{ children }}` 으로 호출할 수 있지만, vue에서는 방법을 못찾고 있어서 템플릿 스트링으로 넘겨주고 있던 도중, slot을 발견!!
+
+```vue
+// Parent.vue
+<Child>
+  <p>부모에서 넘겨준 엘리먼트 입니다.</p>
+</Child>
+```
+
+```vue
+// Child.vue
+<p>자식 컴포넌트 입니다.</p>
+<slot></slot>
+```
+
+렌더링이 되면, 아래와 같을 것이다.
+```vue
+<p>자식 컴포넌트 입니다.</p>
+<p>부모에서 넘겨준 엘리먼트 입니다.</p>
+```
+
+https://kr.vuejs.org/v2/guide/components.html#%EB%8B%A8%EC%9D%BC-%EC%8A%AC%EB%A1%AF
