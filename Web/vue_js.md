@@ -57,7 +57,30 @@ mounted() {
 
 
 ## Option/Data
-https://kr.vuejs.org/v2/api/#%EC%98%B5%EC%85%98-%EB%8D%B0%EC%9D%B4%ED%84%B0
+[참고 링크](https://kr.vuejs.org/v2/api/#%EC%98%B5%EC%85%98-%EB%8D%B0%EC%9D%B4%ED%84%B0)
+  
+## Store
+Vuex(Vue.js의 상태 관리 패턴 라이브러리)에서 제공하는 중앙 집중식 저장소이다. 
+어플리케이션의 모든 컴포넌트에 대해 한 곳에서 관리하게 된다.
+![vuex state flow](https://vuex.vuejs.org/vuex.png)
+
+### 상태
+Vuex는 **단일 상태 트리**를 사용한다. 각 어플리케이션마다 하나의 저장소를 가지게 된다.
+상태는 `computed`를 통해 가져올 수 있다.
+```vue
+// ...이하 생략
+computed: {
+  count() {
+    return store.employees.count
+  }
+}
+```
+`computed` 내에서 상태를 가져오게 되면, 상태(`store.employees.count`) 값이 변할 경우 계산된 속성이 변경되고 DOM 업데이트가 트리거 된다.
+
+상태 값을 변경하고 싶을 경우 `commit`메소드를 이용한다.
+[TODO: READ](https://vuex.vuejs.org/kr/guide/mutations.html)
+
+  
   
   
 ## Slot
@@ -84,4 +107,4 @@ React에서는 `{{ children }}` 으로 호출할 수 있지만, vue에서는 방
 <p>부모에서 넘겨준 엘리먼트 입니다.</p>
 ```
 
-https://kr.vuejs.org/v2/guide/components.html#%EB%8B%A8%EC%9D%BC-%EC%8A%AC%EB%A1%AF
+[참고 링크](https://kr.vuejs.org/v2/guide/components.html#%EB%8B%A8%EC%9D%BC-%EC%8A%AC%EB%A1%AF)
