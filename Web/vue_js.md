@@ -136,6 +136,13 @@ Vue.js + Webpack + Babel
 - 모듈식 아키텍처 확장
 
 ## [디렉토리 구조](https://ko.nuxtjs.org/guide/directory-structure)
+import시 상대/절대경로로 모두 접근 가능하다.
+```vue
+import Footer from "../../components/Footer"
+
+// BETTER BELOW
+import Footer from  "~/components/Footer"
+```
 
 ### /assets
 LESS, SASS, JS같은 컴파일되지 않은 asset을 포함
