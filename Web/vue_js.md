@@ -167,3 +167,8 @@ Vue.js 컴포넌트를 포함. /pages 내의 .vue에서 불러다 쓴다.
 
 ### /store
 Vuex store 파일 포함
+
+## 비동기 데이터 호출
+asyncData라는 메소드를 활용하면 된다. promise, async/await, callback 모두 사용 가능.
+
+해당 메소드에서 리턴하는 값은 컴포넌트 내에서 this로 접근 가능하다.
