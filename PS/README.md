@@ -120,6 +120,7 @@
 - [Maximum Binary Tree](maximum_binary_tree.md)
 - [Diameter of Binary Tree](diameter_of_binary_tree.md)
 - [Binary Tree Longest Consecutive Sequence](binary_tree_longest_consecutive_sequence.md)
+- [Trim a Binary Search Tree](trim_bst.md)
 
 #### Linked List
 - [Compare two linked lists](compare_two_linked_lists.md)
