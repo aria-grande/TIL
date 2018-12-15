@@ -4,6 +4,7 @@
   - 서버사이드 렌더링 지원
   - 템플릿 기반의 구조(기본은 템플릿이지만 JSX를 원하면 사용할 수도 있음)
   - [API 링크](https://kr.vuejs.org/v2/api/)
+  - [Style Guide](http://vuejs.kr/jekyll/update/2017/03/13/vuejs-component-style-guide/)
   
 ## Instance's life-cycle
   ![Instance's life cycle](https://kr.vuejs.org/images/lifecycle.png)
