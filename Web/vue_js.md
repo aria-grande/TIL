@@ -108,6 +108,15 @@ React에서는 `{{ children }}` 으로 호출할 수 있지만, vue에서는 방
 <p>부모에서 넘겨준 엘리먼트 입니다.</p>
 ```
 
+### Named slot
+slot에 이름을 지정해 여러 슬롯을 넘길 수 있다.
+```vue
+<template>
+ <slot name="header"></slot>
+ <slot name="body"></slot>
+</template>
+```
+
 [참고 링크](https://kr.vuejs.org/v2/guide/components.html#%EB%8B%A8%EC%9D%BC-%EC%8A%AC%EB%A1%AF)
 
 
