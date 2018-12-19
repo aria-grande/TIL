@@ -63,6 +63,7 @@
 - [Convert to unix standard file path](convert_to_unix_file_path.md)
 - [Remove Comments](remove_comments.md)
 - [Interleaving String](interleaving_string.md)
+- [Add Strings](add_strings.md)
 
 #### Array
 - [Contains Duplicate](array_contains_duplicate.md)
@@ -136,6 +137,9 @@
 
 #### Trie
 - [Contacts](contacts.md)
+
+#### ETC.
+- [two sum data structure design](two-sum-iii-data-structure-design.md)
 
 ### Facebook hackercup
 #### Qualification Round
