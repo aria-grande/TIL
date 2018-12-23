@@ -37,6 +37,7 @@
 - [Insert/Delete/GetRandom dupliates allowed](insert_delete_getrandom_duplicates_allowed.md) :star:
 - [Factorial Trailing Zeroes](factorial_trailing_zeroes.md) :star:
 - [Container with most water](container-with-most-water.md)
+- [Palindrome number](palindrome_number.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
