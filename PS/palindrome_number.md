@@ -26,4 +26,27 @@ Time complexity: O(N)
 
 Space complexity: O(N)
 
-로직 개선할 것이 보인다. 내일 계속.
+# Better solution
+reversed number를 만들면 쉽게 비교할 수 있다.
+
+```java
+class Solution {
+    public boolean isPalindrome(int x) {
+        if(x < 0) {
+            return false;
+        }
+        int origin = x;
+        int reversed = 0;
+        while(x > 0) {
+            reversed *= 10;
+            reversed += x % 10;
+            x /= 10;
+        }
+        
+        return origin == reversed;
+    }
+}
+```
+Time complexity : O(log 10 N)
+
+Space complexity : O(1)
