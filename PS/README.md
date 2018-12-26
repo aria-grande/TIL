@@ -136,6 +136,7 @@
 - [Add two numbers in reverse](add_two_numbers_in_linked_list.md)
 - [Swap nodes in pairs](swap_nodes_in_pairs.md)
 - [Plus One Linked List](plus_one_linked_list.md)
+- [Reverse Linked List](reverse_linked_list.md)
 
 #### Trie
 - [Contacts](contacts.md)
