@@ -120,4 +120,4 @@ slot에 이름을 지정해 여러 슬롯을 넘길 수 있다.
 [참고 링크](https://kr.vuejs.org/v2/guide/components.html#%EB%8B%A8%EC%9D%BC-%EC%8A%AC%EB%A1%AF)
 
 ---
-- [Nuxt.js](nuxt.md)
+- [Nuxt.js](nuxt_js.md)
