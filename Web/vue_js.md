@@ -81,8 +81,63 @@ computed: {
 상태 값을 변경하고 싶을 경우 `commit`메소드를 이용한다.
 [TODO: READ](https://vuex.vuejs.org/kr/guide/mutations.html)
 
-  
-  
+## Computed와 Watch
+Vue에는 template을 깔끔한 코드로 유지하기 위해 computed와 watch를 제공하고 있다.
+
+### Computed
+템플릿에 복잡한 로직을 분리할 수 있도록 제공하는 기능이다.
+매번 재계산하지 않는다. 메소드를 호출하면 매번 재계산 하지만, computed 내에 선언된 함수들은 내부 데이터가 바뀌어야 할 경우에만 재계산을 한다.
+```vue
+<template>
+  <h1>{{ description }}</h1>
+  <span>{{ now }}</span>
+</template>
+```
+
+```vue
+computed: {
+  // GOOD
+  description() {
+    return `${this.user.name} (${this.user.age})`
+  }
+  // BAD
+  now() {
+    return new Date()
+  }
+}
+```
+위 예시 중 description의 경우, this.user.name 혹은 this.user.age가 변경되면 재계산 될 것이다. 
+하지만 now의 경우, 처음 계산 된 이후로는 재계산 할 property가 없으므로 페이지를 리로드하지 않는 이상 이 값은 업데이트 되지 않는다.
+
+property가 바뀜에 따라 데이터를 재계산 하는 메소드를 제공하고 있다.
+
+### Watch
+데이터의 변경을 관찰하고 그에 따른 콜백을 제공한다. 주로 input data의 변경 및 비동기적인 콜백에 대응해야 할 때 유용하다.
+데이터 변경에 대한 응답(주로 input data)으로 비동기식 또는 시간이 많이 소요되는 조작을 수행하려는 경우에 가장 유용하다.
+```vue
+<div id="watch-example">
+  <p>
+    yes/no 질문을 물어보세요:
+    <input v-model="question">
+  </p>
+  <p>{{ answer }}</p>
+</div>
+```
+
+```vue
+data: {
+  question: '',
+  answer: '질문을 하기 전까지는 대답할 수 없습니다.'
+},
+watch: {
+  // 질문이 변경될 때 마다 이 기능이 실행됩니다.
+  question: function (newQuestion) {
+    this.answer = '입력을 기다리는 중...'
+    this.getAnswer()
+  }
+}
+```
+
   
 ## Slot
 좋은 기능을 알았다. 부모 컴포넌트에서 자식 컴포넌트로 DOM element를 전달할 수 있다.
@@ -118,6 +173,7 @@ slot에 이름을 지정해 여러 슬롯을 넘길 수 있다.
 ```
 
 [참고 링크](https://kr.vuejs.org/v2/guide/components.html#%EB%8B%A8%EC%9D%BC-%EC%8A%AC%EB%A1%AF)
+
 
 ---
 - [Nuxt.js](nuxt_js.md)
