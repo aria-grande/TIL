@@ -1,4 +1,6 @@
 # Problem
+https://leetcode.com/problems/validate-binary-search-tree/
+
 Determine if it is a BST for a given tree.
 
 # Solution
