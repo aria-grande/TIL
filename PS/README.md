@@ -126,6 +126,7 @@
 - [Binary Tree Longest Consecutive Sequence](binary_tree_longest_consecutive_sequence.md)
 - [Trim a Binary Search Tree](trim_bst.md)
 - [Binary Search Iterator](bst_iterator.md)
+- [Convert BST to Greater Tree](convert_bst_to_greater_tree.md) :star:
 
 #### Linked List
 - [Compare two linked lists](compare_two_linked_lists.md)
