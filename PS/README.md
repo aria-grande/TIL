@@ -98,6 +98,7 @@
 - [Transpose Matrix](transpose_matrix.md)
 - [Convert Sorted Array to Binary Search Tree](convert_sorted_array_to_bst.md)
 - [Swap Adjacent in LR String](swap_adjacent_in_lr_string.md)
+- [Spiral Matrix II](spiral_matrix_ii.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
