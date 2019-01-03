@@ -59,3 +59,25 @@ public int maxProfit(int[] prices) {
 Time complexity: O(N)
 
 Space complexity: O(1)
+
+# Recent Solution
+사야할 타이밍만 알고 있으면, 그 이후로 계속 selling point를 통해 max profit 값을 업데이트 해나가면 된다.
+사야할 타이밍은 지금 산 가격보다 낮은 가격이 나올 때이다.
+
+```java
+public int maxProfit(int[] prices) {
+    int buy = Integer.MAX_VALUE;
+    int profit = 0;
+    for(int i = 0; i < prices.length - 1; ++i) {
+        if(prices[i] < buy) {
+            buy = prices[i];
+        }
+        profit = Math.max(profit, prices[i + 1] - buy);
+    }
+    return profit;
+}
+```
+
+Time complexity: O(N)
+
+Space complexity: O(1)
