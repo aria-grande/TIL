@@ -65,6 +65,7 @@
 - [Remove Comments](remove_comments.md)
 - [Interleaving String](interleaving_string.md)
 - [Add Strings](add_strings.md)
+- [Add Binary](add_binary.md)
 - [Reverse only letters](reverse_only_letters.md)
 
 #### Array
