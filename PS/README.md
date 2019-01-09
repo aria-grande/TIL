@@ -110,6 +110,7 @@
 - [Maximum of Equal Heights of Stacks](equal_stacks.md)
 - [Largest Rectangle](largest_rectangle.md)
 - [Valid Parentheses](valid_parentheses.md)
+- [Min Stack](min_stack.md)
 
 #### Tree
 - [Is this a Binary Search Tree?](check_binary_search_tree.md)
