@@ -42,3 +42,49 @@ int getSize(ListNode head) {
 ```
 Time complexity: O(N)<br/>
 Space complxity: O(N)
+
+# Solution 2(Better)
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public boolean isPalindrome(ListNode head) {
+        int len = 0;
+        ListNode node = head;
+        while(node != null) {
+            len++;
+            node = node.next;
+        }
+        final int half = len / 2;
+        
+        StringBuilder front = new StringBuilder();
+        StringBuilder back = new StringBuilder();
+        ListNode move = head;
+        int i = 0;
+        for(; i < half; ++i) {
+            front.append(move.val);
+            move = move.next;
+        }
+        if(len % 2 == 1) {
+            move = move.next;
+            i++;
+        }
+        for(; i < len; ++i) {
+            back.insert(0, move.val);
+            move = move.next;    
+        }
+        return front.toString().equals(back.toString());
+    }
+}
+```
+
+Time complexity: O(N)
+
+Space complexity: O(1)
