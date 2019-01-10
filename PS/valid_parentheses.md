@@ -55,3 +55,51 @@ class Solution {
 Time complexity: O(N)
 
 Spacee complexity: O(N)
+
+
+# Solution2
+Using integer stack!
+```java
+class Solution {
+    public boolean isValid(String s) {
+        Stack<Integer> stack = new Stack<>();
+        for(char c : s.toCharArray()) {
+            int ctoi = convert(c);
+            if(ctoi < 0) {
+                if(stack.isEmpty() || (ctoi + stack.pop() != 0)) {
+                    return false;    
+                }
+            }
+            else if(ctoi > 0) {
+                stack.push(ctoi);
+            }
+        }
+        return stack.isEmpty();
+    }
+    
+    private int convert(char c) {
+        if(c == '(') {
+            return 1;
+        }
+        if(c == ')') {
+            return -1;
+        }
+        if(c == '{') {
+            return 2;
+        }
+        if(c == '}') {
+            return -2;
+        }
+        if(c == '[') {
+            return 3;
+        }
+        if(c == ']') {
+            return -3;
+        }
+        return 0;
+    }
+}
+```
+Time complexity: O(N)
+
+Space complexity: O(N)
