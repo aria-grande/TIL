@@ -93,11 +93,9 @@ config.middleware.insert_before 0, Rack::Cors do
 end
 ```
 
-
-
 #### 덧, request header도 손보긴 해야한다.
 
-내가 제공하는 API는 html/json response를 모두 지원하고 있으므로, 'Accept': 'application/json' 과 같은 헤더를 덧붙여 주긴 해야 한다.
+내가 제공하는 API는 html/json response를 모두 지원하고 있으므로, `'Accept': 'application/json'` 과 같은 헤더를 덧붙여 주긴 해야 한다.
 
 
 
