@@ -45,9 +45,9 @@ this.$axios.$post(url, data, {
 
 ### 그런데 왜 OPTIONS method로 requesting 하는걸까?
 
-`HTTP request sending OPTIONS instead of POST` 라고 검색해보니 아래와 같은 [이슈](https://github.com/axios/axios/issues/475)를 발견했다.
+`HTTP request sending OPTIONS instead of POST` 라고 검색해보니 나와 비슷한 문제를 겪고 있는 [이슈](https://github.com/axios/axios/issues/475)를 발견했다.
 
-[Preflighted Requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Preflighted_requests)라고 불리는 녀석이었다.
+OPTIONS가 먼저 불리는 이유는 [Preflighted Requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Preflighted_requests)라고 불리는 녀석 때문이었다.
 
 chrome에서 POST, PUT 이런 메소드를 보낼때에는 지원하는 요청 타입인지 확인하기 위해 OPTIONS로 reuqest를 보내고 서버가 이에 대해 ok를 해주면 그다음에 real request를 보내는 것이다.
 
