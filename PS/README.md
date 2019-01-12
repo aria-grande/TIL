@@ -102,6 +102,7 @@
 - [Spiral Matrix II](spiral_matrix_ii.md)
 - [Distribute candies](distribute_candies.md)
 - [Shortes word distance](shortest_word_distance.md)
+- [Set Mismatch](set_mismatch.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
