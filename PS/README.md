@@ -38,6 +38,7 @@
 - [Factorial Trailing Zeroes](factorial_trailing_zeroes.md) :star:
 - [Container with most water](container-with-most-water.md)
 - [Palindrome number](palindrome_number.md)
+- [Climbing Stairs](climbing_stairs.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
