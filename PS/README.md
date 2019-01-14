@@ -39,6 +39,7 @@
 - [Container with most water](container-with-most-water.md)
 - [Palindrome number](palindrome_number.md)
 - [Climbing Stairs](climbing_stairs.md)
+- [Active, Inactive Cells after K days](active_inactive_cells_k_days.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
