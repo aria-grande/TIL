@@ -105,6 +105,7 @@
 - [Distribute candies](distribute_candies.md)
 - [Shortes word distance](shortest_word_distance.md)
 - [Set Mismatch](set_mismatch.md)
+- [House Robber](house_robber.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
