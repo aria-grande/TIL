@@ -40,6 +40,7 @@
 - [Palindrome number](palindrome_number.md)
 - [Climbing Stairs](climbing_stairs.md)
 - [Active, Inactive Cells after K days](active_inactive_cells_k_days.md)
+- [KNN](knn.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
