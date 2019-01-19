@@ -34,3 +34,29 @@ class Solution {
 Time complexity:O(N)
 
 Space complexity: O(N)
+
+
+# Solution w/o global variable
+2019.01.19
+
+```java
+class Solution {
+    public TreeNode convertBST(TreeNode node) {
+        convert(node, 0);
+        return node;
+    }
+    
+    private int convert(TreeNode node, int acc) {
+        if(node == null) {
+            return acc;
+        }
+        int right = (node.right == null) ? acc : convert(node.right, acc);
+        node.val += right;
+        return convert(node.left, node.val);
+    }
+}
+```
+노드의 갯수가 N 개라 할 때,
+Time complexity: O(N)
+
+Space complexity: O(log N) (O(N) when the worst case)
