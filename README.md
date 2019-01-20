@@ -13,7 +13,6 @@
 
 ### Languages ℳ
 - [Java](https://github.com/aria-grande/TIL/tree/master/Java)
-- Ruby
 
 ### Frameworks
 - [Ruby on Rails](https://github.com/aria-grande/TIL/tree/master/Rails)
