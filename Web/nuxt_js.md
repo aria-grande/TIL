@@ -27,7 +27,7 @@ Vue.js + Webpack + Babel
 
 ## [디렉토리 구조](https://ko.nuxtjs.org/guide/directory-structure)
 import시 상대/절대경로로 모두 접근 가능하다.
-```vue
+```js
 import Footer from "../../components/Footer"
 
 // BETTER BELOW
@@ -56,6 +56,13 @@ pages/
   ㄴ _id.vue      -> /users/23
 ```
 `_`는 dynamic route를 의미한다.
+
+Dynamic route의 parameter에 접근하기 위해서는 아래와 같이 asyncData를 이용하면 된다.
+```js
+asyncData: function({ params }) {
+  console.log(params)             // id: 23
+}
+```
 
 ### /plugins
 루트 vue.js 어플리케이션이 생성되기 전 실행하고 싶은 js 플러그인을 포함.
