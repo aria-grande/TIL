@@ -4,6 +4,7 @@
 Vue.js 어플리케이션을 만드는 프레임워크다.
 클라이언트/서버 배포를 추상화 하는 동안의 UI 렌더링을 하며, 서버 렌더링도 가능하다.
 
+
 ## 기술 스택
 Vue.js + Webpack + Babel
 
@@ -47,6 +48,13 @@ Vue.js 컴포넌트를 포함. /pages 내의 .vue에서 불러다 쓴다.
 
 ### /pages
 어플리케이션의 뷰와 라우트를 포함. Nuxt.js는 해당 디렉토리 내 모든 .vue 파일을 읽고 어플리케이션의 라우터를 생성.
+RESTful 한 uri를 만들기 위해서는 아래와 같이 pages 구조를 잡을 수 있다.
+```
+pages/
+ㄴ users/
+  ㄴ index.vue    -> /users
+  ㄴ _id.vue      -> /users/23
+```
 
 ### /plugins
 루트 vue.js 어플리케이션이 생성되기 전 실행하고 싶은 js 플러그인을 포함.
@@ -61,3 +69,6 @@ Vuex store 파일 포함
 asyncData라는 메소드를 활용하면 된다. promise, async/await, callback 모두 사용 가능.
 
 해당 메소드에서 리턴하는 값은 컴포넌트 내에서 this로 접근 가능하다.
+
+---
+[Cheat Sheet](https://www.vuemastery.com/pdf/Nuxtjs-Cheat-Sheet.pdf)를 읽어봐도 좋을듯!
