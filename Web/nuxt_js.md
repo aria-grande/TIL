@@ -55,6 +55,7 @@ pages/
   ㄴ index.vue    -> /users
   ㄴ _id.vue      -> /users/23
 ```
+`_`는 dynamic route를 의미한다.
 
 ### /plugins
 루트 vue.js 어플리케이션이 생성되기 전 실행하고 싶은 js 플러그인을 포함.
