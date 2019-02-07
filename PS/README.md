@@ -152,6 +152,7 @@
 - [Swap nodes in pairs](swap_nodes_in_pairs.md)
 - [Plus One Linked List](plus_one_linked_list.md)
 - [Reverse Linked List](reverse_linked_list.md)
+- [Merge K Sorted List](merge_k_sorted_list.md)
 
 #### Trie
 - [Contacts](contacts.md)
