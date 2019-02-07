@@ -52,4 +52,7 @@ class Solution {
 Suppose that k lists, and the length of the list is N.
 
 Time complexity: O(kN)
+
 Space complexity: O(kN)
+
+Runtime: 11ms
