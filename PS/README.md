@@ -142,6 +142,7 @@
 - [Binary Search Iterator](bst_iterator.md)
 - [Convert BST to Greater Tree](convert_bst_to_greater_tree.md) :star:
 - [Populating Next Right Pointers in Each Nodes](populating_next_right_pointers.md)
+- [Closest BST value](closest_value_in_bst.md)
 
 #### Linked List
 - [Compare two linked lists](compare_two_linked_lists.md)
