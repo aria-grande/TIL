@@ -156,6 +156,7 @@
 - [Plus One Linked List](plus_one_linked_list.md)
 - [Reverse Linked List](reverse_linked_list.md)
 - [Merge K Sorted List](merge_k_sorted_list.md)
+- [Intersection of two linked lists](intersection_of_two_linked_lists.md)
 
 #### Trie
 - [Contacts](contacts.md)
