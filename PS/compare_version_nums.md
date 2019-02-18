@@ -2,6 +2,7 @@
 https://leetcode.com/problems/compare-version-numbers/
 
 # Solution
+```java
 class Solution {
     public int compareVersion(String version1, String version2) {
         int n1 = 0, n2 = 0;
@@ -26,3 +27,4 @@ class Solution {
         return n1 > n2 ? 1 : -1;
     }
 }
+```
