@@ -71,6 +71,7 @@
 - [Add Strings](add_strings.md)
 - [Add Binary](add_binary.md)
 - [Reverse only letters](reverse_only_letters.md)
+- [Compare version numbers](compare_version_nums.md)
 
 #### Array
 - [Contains Duplicate](array_contains_duplicate.md)
