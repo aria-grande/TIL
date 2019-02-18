@@ -110,6 +110,7 @@
 - [Set Mismatch](set_mismatch.md)
 - [House Robber](house_robber.md)
 - [Rotate 2d array](rotate_2d_array.md)
+- [Reverse words in string 2](reverse_words_in_string2.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
