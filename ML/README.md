@@ -12,3 +12,8 @@ docker run -it -p 8888:8888 tensorflow/tensorflow
 
 ### Jupyter
 - 수식 변환기: http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Typesetting%20Equations.html
+
+## 종합셋트 docker image
+https://github.com/okwrtdsh/anaconda3
+
+Anaconda3, Jupyter Notebook, OpenCV3, TensorFlow and Keras2 넘파이와 scipy도 물론 있다!
