@@ -112,6 +112,7 @@
 - [Rotate 2d array](rotate_2d_array.md)
 - [Reverse words in string 2](reverse_words_in_string2.md)
 - [Find duplicate number in array)(find_duplicate_number.md)
+- [Find common characters](find_common_characters.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
