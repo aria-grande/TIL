@@ -111,7 +111,7 @@
 - [House Robber](house_robber.md)
 - [Rotate 2d array](rotate_2d_array.md)
 - [Reverse words in string 2](reverse_words_in_string2.md)
-- [Find duplicate number in array)(find_duplicate_number.md)
+- [Find duplicate number in array](find_duplicate_number.md)
 - [Find common characters](find_common_characters.md)
 
 #### Set
@@ -161,6 +161,7 @@
 - [Reverse Linked List](reverse_linked_list.md)
 - [Merge K Sorted List](merge_k_sorted_list.md)
 - [Intersection of two linked lists](intersection_of_two_linked_lists.md)
+- [Odd Even Linked list](odd_even_linked_list.md)
 
 #### Trie
 - [Contacts](contacts.md)
