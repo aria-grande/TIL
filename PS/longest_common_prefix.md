@@ -37,3 +37,8 @@ class Solution {
     }
 }
 ```
+When the minimum length among strs is M and the length of strs is N,
+
+TIME COMPEXITY: O(M * N)
+
+SPACE COMPLEXITY: O(M)
