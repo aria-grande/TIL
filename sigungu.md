@@ -11,4 +11,4 @@
 
 즉 시군구코드는 행정분류코드의 앞 5자리 이다.
 
-[여기](http://kssc.kostat.go.kr/ksscNew_web/kssc/common/CommonBoardList.do?gubun=1&strCategoryNameCode=019&strBbsId=kascrr&categoryMenu=014)에서 행정동 기준의 코드를 다운로드 받을 수 .
+[여기](http://kssc.kostat.go.kr/ksscNew_web/kssc/common/CommonBoardList.do?gubun=1&strCategoryNameCode=019&strBbsId=kascrr&categoryMenu=014)에서 행정동 기준의 코드를 다운로드 받을 수 있다.
