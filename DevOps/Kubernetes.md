@@ -37,8 +37,10 @@ SSL 인증서도 붙일 수 있다.
 <img width="400px" src="https://t1.daumcdn.net/cfile/tistory/99EF73395B2D16940A" alt="ingress" />
 
 ## Useful commands & tools
-- [kubectl CLI](https://kubernetes.io/docs/reference/kubectl/overview/): 한 개의 pod의 로그를 볼 수 있음
-- [stern CLI](https://github.com/wercker/stern) : 멀티 pod의 로그를 한 번에 볼 수 있음
+- [kubectl CLI](https://kubernetes.io/docs/reference/kubectl/overview/)
+  - 로그: 한 개의 pod의 로그를 볼 수 있음
+- [stern CLI](https://github.com/wercker/stern)
+  - 로그: 멀티 pod의 로그를 한 번에 볼 수 있음
 
 ## 참고
 - https://bcho.tistory.com/1263
