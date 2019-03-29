@@ -1,5 +1,5 @@
 # [Kubernetes](https://kubernetes.io/ko/)
-- 컨테이너화된 어플리케이션을 자동으로 배포, 스케일링 및 관리해주는 오픈소스 시스템
+컨테이너화된 어플리케이션을 자동으로 배포, 스케일링 및 관리해주는 오픈소스 시스템
 
 ## Architecture
 ![kube architecture](https://1.bp.blogspot.com/-VMBcuIeUCx0/W26-OBALRvI/AAAAAAAABho/ayhh3n6DgHYl_SY9CLece-B-JQs1fTq3QCLcBGAs/s640/kubernetes%2Barchitecture%2Bexplained.jpg)
@@ -19,7 +19,10 @@
   - **저장소**: 파드 내부의 모든 컨테이너는 공유 볼륨에 접근할 수 있고, 컨테이너 간 데이터 공유가 가능하다.
 
 ## Ingress
-쿠버네티스에서 HTTP(S) 기반의 L7 로드밸런싱 기능을 제공하는 컴포넌트
+쿠버네티스에서 HTTP(S) 기반의 L7 로드밸런싱 기능을 제공하는 컴포넌트이다.
+트래픽이 높으면 ingress 갯수를 늘리면 된다.
+SSL 인증서도 붙일 수 있다.
+
 ![Ingress](https://t1.daumcdn.net/cfile/tistory/99EF73395B2D16940A)
 
 ## Useful commands & tools
