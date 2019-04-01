@@ -114,6 +114,7 @@
 - [Find duplicate number in array](find_duplicate_number.md)
 - [Find common characters](find_common_characters.md)
 - [Longest Common Prefix](longest_common_prefix.md)
+- [Toeplitz Matrix](toeplitz_matrix.md)
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
