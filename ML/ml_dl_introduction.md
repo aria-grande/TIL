@@ -134,6 +134,16 @@ Hyper-parameter: 모델이 아니라 학습 알고리즘 자체의 파라미터�
 
 <hr/>
 
+## [Logistic Regression](https://ko.wikipedia.org/wiki/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1_%ED%9A%8C%EA%B7%80)
+독립 변수의 선형 결합을 이용하여 사건의 발생 가능성을 예측하는데 사용되는 확률 모델.
+
+종속 변수(범주형 데이터 대상)와 독립 변수간의 관계를 구체적인 함수로 나타내어 향후 예측 모델에 사용 하기 위함.
+
+입력 데이터가 주어졌을 때 그 결과가 특정 분류로 나뉘기 때문에 일종의 classification 기법으로도 볼 수 있다.
+
+실무에서 강력한 regression 방법 중 하나이다.
+
+
 # Neural Network
 XOR problem을 생각해보자.
 
