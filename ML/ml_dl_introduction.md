@@ -143,6 +143,24 @@ Hyper-parameter: 모델이 아니라 학습 알고리즘 자체의 파라미터�
 
 실무에서 강력한 regression 방법 중 하나이다.
 
+```python
+import numpy as np
+import pandas as pd
+
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+
+data = pd.read_csv(file_name)
+train_x, test_x, train_y, test_y = train_test_split(data[:, 1:], data[:, 0], 
+                                                    test_size=0.3, random_state=0)
+# Train!!
+lr = LogisticRegression()
+lr.fit(train_x, train_y)
+
+# Predict and test!!
+pred_y = lr.predict(test_x)
+print('test result: ', (test_y == pred_y).sum() / test_y.shape[0])
+```
 
 # Neural Network
 XOR problem을 생각해보자.
