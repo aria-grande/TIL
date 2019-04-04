@@ -167,6 +167,7 @@
 - [Merge K Sorted List](merge_k_sorted_list.md)
 - [Intersection of two linked lists](intersection_of_two_linked_lists.md)
 - [Odd Even Linked list](odd_even_linked_list.md)
+- [Remove linked list elements](remove-linked-list-elements.md)
 
 #### Trie
 - [Contacts](contacts.md)
