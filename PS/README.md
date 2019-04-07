@@ -153,6 +153,7 @@
 - [Merge Two Binary trees](merge_two_binary_trees.md)
 - [Minimum depth of a binary tree](minimum_depth_of_binary_tree.md)
 - [Invert a Binary tree](invert_binary_tree.md)
+- [Cousins in Binary Tree](cousins-in-binary-tree.md)
 
 #### Linked List
 - [Compare two linked lists](compare_two_linked_lists.md)
