@@ -1,6 +1,9 @@
 # ML
 This directory is about machine learning.
 
+## TO READ
+- https://www.kaggle.com/joparga3/2-tuning-parameters-for-logistic-regression
+
 ## Tools
 ### [Install Tensorflow](https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/get_started/os_setup.html)
 
