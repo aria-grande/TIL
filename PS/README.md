@@ -41,7 +41,8 @@
 - [Climbing Stairs](climbing_stairs.md)
 - [Active, Inactive Cells after K days](active_inactive_cells_k_days.md)
 - [KNN](knn.md)
-- [Find the shortest distance](find_shortest_distance.md)
+- [Find the Shortest Distance](find_shortest_distance.md)
+- [Sum of Square Numbers](sum-of-square-numbers.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
