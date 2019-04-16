@@ -43,6 +43,7 @@
 - [KNN](knn.md)
 - [Find the Shortest Distance](find_shortest_distance.md)
 - [Sum of Square Numbers](sum-of-square-numbers.md)
+- [Ugly Number](ugly-number.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
