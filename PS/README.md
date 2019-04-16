@@ -9,6 +9,7 @@
 - [Find only one unique number in array](find_only_one_uniq_number.md)
 - [Find all prime numbers until N](find_prime_numbers.md)
 - [Determine N is prime number or not in best solution](determine_n_is_prime_number.md)
+- [Ugly Number](ugly_number.md)
 - [Ugly Number 2](ugly_number2.md) :star::star:
 - [Multiply all except me](multiply_all_except_me.md)
 - [Sparse arrays](sparse_arrays.md)
@@ -43,7 +44,6 @@
 - [KNN](knn.md)
 - [Find the Shortest Distance](find_shortest_distance.md)
 - [Sum of Square Numbers](sum-of-square-numbers.md)
-- [Ugly Number](ugly-number.md)
 
 #### Sort
 - [Merge sort](merge_sort.md)
