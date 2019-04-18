@@ -18,4 +18,4 @@ https://github.com/aria-grande/KoRegionCodeMapper 젬을 만들어서 서빙!
 
 키바나의 region map을 만들 때, geoJSON에 시군구코드 값이 있다.
 이 것을 이용 하여 아래와 같은 대시보드를 만들 수 있음.
-![dashboard](images/kibana_dasbhoard.png)
+![dashboard](images/kibana_dashboard.png)
