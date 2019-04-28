@@ -10,7 +10,7 @@
 - [Network](https://github.com/aria-grande/TIL/tree/master/Network)
 - [Operating System](https://github.com/aria-grande/TIL/tree/master/OS)
 - [Security](https://github.com/aria-grande/TIL/tree/master/Security)
-
+- [Architecture](/architecture)
 ### Languages ℳ
 - [Java](https://github.com/aria-grande/TIL/tree/master/Java)
 
