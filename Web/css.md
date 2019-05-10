@@ -10,6 +10,13 @@ background-image에 먼저 선언될 수록 위 layer에 쌓인다.
 
 Ref: https://www.w3schools.com/CSS/css3_backgrounds.asp
 
+# Background image relative position
+20px apart from right and 10px apart from bottom
+```css
+background-position: right 20px bottom 10px;
+```
+Ref: https://css-tricks.com/positioning-offset-background-images/
+
 # Progress Bar
 ```html
 <progress min="0" max="100" value="60" />
