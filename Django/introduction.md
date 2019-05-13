@@ -51,3 +51,6 @@ Create a new HTML file called /locallibrary/templates/registration/login.html. g
 ## Form
 https://developer.mozilla.org/ko/docs/Learn/Server-side/Django/Forms
 
+## Custom Filter
+Django offers template language and filters
+https://docs.djangoproject.com/en/2.2/howto/custom-template-tags/
