@@ -41,10 +41,19 @@ Law of effect: 어떤 행동의 결과가 만족스러우면 다음 행동에서
   Unity를 사용하여 개인이 강화 학습 환경 제작 가능. 게임 뿐만 아니라 real simulator도 제작 할 수 있다.
   
 ## [Q-learning](https://en.wikipedia.org/wiki/Q-function)
-통계학에서, Q-function은 정규 분포의 tail distribution function이다.
-다음 가능한 Q function 중 최대를 뽑아서 현재 Q function을 update하고, 움직일 때는 max 값을 알면서도 가끔 다른 action을 한다.
+- 대표적인 Tabular learning이다.
+- 통계학에서, Q-function은 정규 분포의 tail distribution function이다.
+- 다음 가능한 Q function 중 최대를 뽑아서 현재 Q function을 update하고, 움직일 때는 max 값을 알면서도 가끔 다른 action을 한다.
+- Q function: state와 action을 인풋으로 하면 expected reward가 output으로 나온다.
+- 낮은 차원에서는 가능하지만 이미지처럼 차원이 높아질 경우 학습이 얼벼다.
 
 - refer: https://dnddnjs.gitbooks.io/rl/content/deep_q_networks.html
+
+## Deep Q-learning
+- 학습하기 위한 데이터를 메모리에 올려놓고 학습한다. replay memory라고 하는데 많은 메모리가 요구된다.
+- target network를 따로 운영한다. 학습 속도 저하
+- 가치 기반을 통해 행동을 학습한다. 확률 기반이 아님.
+- Policy의 경우 확률을 사용하는데, 매번 같은 action을 하는게 아니라 확률에 기반한 가중치를 가지고 random하게 select & action을 함.
 
 ## Genetic Algorithm
 생명체의 진화를 모방하여 가장 적절한 해집단을 찾아간다.
