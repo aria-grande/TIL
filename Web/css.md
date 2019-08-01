@@ -34,3 +34,8 @@ progress::-webkit-progress-bar {
 
 - `box-sizing: content-box` : 콘텐츠 영역이 parent container와 같아지고, 테두리와 안쪽 여백은 이에 더해진다
 - `box-sizing: border-box` : 테두리와 안쪽 여백의 크기의 합도 요소의 크기로 고려한다.
+
+# Vertical align of a div
+```css
+margin: auto;
+```
