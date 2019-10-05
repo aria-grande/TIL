@@ -8,3 +8,5 @@ Check point
 - Do you have CDN for assets?
 - Do you have unnecessary requests?
 - Do you have data to be cache-able?
+- Can you stream white spaces?
+- Can you minify css/js?
