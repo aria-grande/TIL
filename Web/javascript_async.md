@@ -67,7 +67,7 @@ promise(1)
     console.log(data);
 });
 ```
-콜백 지옥이 사라졌다! 가독성도 높아졌다. ES6 이상에서 지원한다.
+콜백 지옥이 사라졌다! 가독성도 높아졌다. ES6 이상에서 지원한다. IE9/10은 ES5를 지원하므로 사용 불가! Polyfill을 별도로 추가 및 사용해야 한다.
 
 ## 참고
 https://programmingsummaries.tistory.com/325
