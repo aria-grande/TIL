@@ -6,3 +6,15 @@ merge commit을 만들지 않고 rebase를 하면 target branch 끝에 커밋들
 ```
 git rebase -i origin/master
 ```
+
+feature 브랜치에서 master로 merge 커밋 없이 머지하고 싶을 때,
+```
+git checkout master
+git pull
+
+git checkout feature/xxx
+git rebase master
+
+git checkout master
+git merge feature/xxx
+```
