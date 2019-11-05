@@ -8,3 +8,9 @@ https://linuxize.com/post/how-to-list-users-in-linux/
 ```
 whoami
 ```
+
+# List of ports using
+```
+sudo lsof -i -P -n
+```
+https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/
