@@ -360,7 +360,7 @@ Our code --> Javascript Engine(Parser --Abstract Syntax Tree--> Conversion to Ma
 
    - Code is scanned for **variable declarations**: for each variable, a property is created in the VO, and set to `undefined`.
 
-   -  Called **HOISTING!!**
+   -  Called **HOISTING!!**  In summary, Hoisting means it's seperated with declaration and assigning part when it's run. So, all variables will be declared at the first line in the scope.
 
      ```js
      /* Original code */
