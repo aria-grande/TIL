@@ -18,6 +18,7 @@ public int fib(int N) {
       next += fib;
       fib = tmp;
   }
+  return fib;
 }
 ```
 
