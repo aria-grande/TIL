@@ -57,6 +57,6 @@ public int fib(int N) {
   return fib(N - 1) + fib(N - 2);
 }
 ```
-Time complexity: O(N)
+Time complexity: O(2^N)
 Space complexity: O(N)
 
