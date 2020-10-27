@@ -118,6 +118,7 @@
 - [Find common characters](find_common_characters.md)
 - [Longest Common Prefix](longest_common_prefix.md)
 - [Toeplitz Matrix](toeplitz_matrix.md)
+- [Find the longest peak](find_longest_peak.md) :star:
 
 #### Set
 - [Jewels and Stones](jewels_and_stones.md)
@@ -173,6 +174,7 @@
 - [Intersection of two linked lists](intersection_of_two_linked_lists.md)
 - [Odd Even Linked list](odd_even_linked_list.md)
 - [Remove linked list elements](remove-linked-list-elements.md)
+- [Convert sorted list to BST](convert_sorted_list_to_BST.md)
 
 #### Trie
 - [Contacts](contacts.md)
