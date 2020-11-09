@@ -47,7 +47,7 @@ Time complexity: O(n)
 Space complexity: O(n)
 
 
---
+<hr/>
 
 ## Following Problem - 1
 Given an array of integers, return **indices of the pairs** that add up to a specific target N.
@@ -63,14 +63,14 @@ List<Integer[]> getIndices(int[] arr, final int N) {
   List<Integer[]> pairs = new ArrayList<>();
   Map<Integer, Integer> indexMap = new HashMap<>();
   for(int i = 0; i < arr.length; ++i) {
-      indexMap.put(arr[i], i);
+    indexMap.put(arr[i], i);
   }
   Arrays.sort(arr);
 
   int lp = 0, rp = arr.length - 1;
   while(lp < rp) {
-      int left = arr[lp];
-      int right = arr[rp];
+    int left = arr[lp];
+    int right = arr[rp];
     int sum = left + right;
     if (sum == N) {
       pairs.add(new Integer[]{ indexMap.get(left), indexMap.get(right) });
