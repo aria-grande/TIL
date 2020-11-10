@@ -64,3 +64,35 @@ When the number of nodes in the tree is N,
 Time complexity: O(log N) (in the worst case, O(N))
 
 Space complexity: O(log N) (in the worst case, O(N))
+
+
+# Following problem - 1
+Let's suppose that it's not guaranteed that the given target number is in the BST
+
+```java
+static TreeNode getClosest(TreeNode root, int target) {
+    if (root == null) {
+        return null;
+
+    }
+    int diff = Math.abs(root.val - target);
+    if (diff == 0) {
+        return root;
+    }
+
+    TreeNode nodeToSearch = (root.val < target) ? root.right : root.left;
+    TreeNode subClosest = getClosest(nodeToSearch, target);
+    if (subClosest == null) {
+        return root;
+    }
+    int diff2 = Math.abs(subClosest.val - target);
+    if (diff < diff2) {
+        return root;
+    }
+    return subClosest;
+}
+```
+
+Time complexity: O(log N) (in the worst case, O(N))
+
+Space complexity: O(log N) (in the worst case, O(N))
